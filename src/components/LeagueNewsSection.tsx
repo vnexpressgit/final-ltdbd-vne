@@ -87,11 +87,9 @@ export const LeagueNewsSection: React.FC<LeagueNewsSectionProps> = ({
               </div>
 
               <div className="flex-1 space-y-1.5">
-                <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-3 h-3" />
-                    {leadStory.publishedAt}
-                  </span>
+                <div className="flex items-center gap-3 text-xs text-[#757575] font-bai">
+                  <span>{leadStory.publishedAt ? leadStory.publishedAt.replace(/(\d+)\s*phút\s*trước/i, "$1' trước").replace(/(\d+)\s*giờ\s*trước/i, "$1h trước") : "Vừa xong"}</span>
+                  <span className="hover:text-[#9f224e] transition-colors">{leagueName}</span>
                 </div>
 
                 <h3 className="font-serif-vne text-base sm:text-lg font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug">
@@ -118,43 +116,36 @@ export const LeagueNewsSection: React.FC<LeagueNewsSectionProps> = ({
           </article>
         )}
 
-        {/* 2. Remaining 9 News Articles in Clean Responsive Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5 sm:gap-4 divide-y md:divide-y-0 divide-[#f0f0f0]">
-          {remainingNews.map((article, idx) => (
+        {/* 2. Remaining News Articles in Single Row Layout matching VnExpress sample */}
+        <div className="divide-y divide-[#f0f0f0]">
+          {remainingNews.map((article) => (
             <article 
               key={article.id}
-              className={`group cursor-pointer flex gap-3 sm:gap-3.5 items-start ${idx > 0 ? 'pt-3 md:pt-0' : ''}`}
+              className="py-3.5 sm:py-4 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 sm:gap-4 md:gap-5 items-start"
             >
               {/* Thumbnail */}
-              <div className="w-24 sm:w-28 aspect-[4/3] rounded-md overflow-hidden bg-gray-100 flex-shrink-0 relative">
+              <div className="w-32 sm:w-48 md:w-56 aspect-[16/10] rounded overflow-hidden bg-gray-100 flex-shrink-0 relative">
                 <img
                   src={article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-300"
                   loading="lazy"
                 />
               </div>
 
               {/* Text Info */}
-              <div className="flex-1 min-w-0 space-y-1">
-                <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                  <Clock className="w-3 h-3 text-[#757575]" />
-                  <span>{article.publishedAt}</span>
-                </div>
-
-                <h4 className="font-serif-vne text-xs sm:text-[13px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
+              <div className="flex-1 min-w-0 space-y-1 sm:space-y-1.5">
+                <h4 className="font-serif-vne text-sm sm:text-base md:text-[17px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
                   {article.title}
                 </h4>
 
-                <p className="text-xs text-[#636B79] line-clamp-2 leading-relaxed hidden sm:block">
+                <p className="text-xs sm:text-[13px] md:text-sm text-[#4f4f4f] line-clamp-2 sm:line-clamp-3 leading-relaxed font-sans">
                   {article.summary}
                 </p>
 
-                <div className="flex items-center gap-3 pt-0.5 text-[10px] text-[#757575] font-bai">
-                  <span className="flex items-center gap-1">
-                    <MessageSquare className="w-2.5 h-2.5" />
-                    <span>{article.commentCount} bình luận</span>
-                  </span>
+                <div className="flex items-center gap-3 text-xs text-[#757575] font-bai pt-0.5 sm:pt-1">
+                  <span>{article.publishedAt ? article.publishedAt.replace(/(\d+)\s*phút\s*trước/i, "$1' trước").replace(/(\d+)\s*giờ\s*trước/i, "$1h trước") : "Vừa xong"}</span>
+                  <span className="hover:text-[#9f224e] transition-colors">{leagueName}</span>
                 </div>
               </div>
             </article>

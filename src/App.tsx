@@ -1002,17 +1002,19 @@ export default function App() {
                   </div>
                 )}
 
-                {/* Block 'Tin tức': Show 10 latest articles with pagination when viewing a specific league */}
-                {selectedLeagueId && (
-                  <LeagueNewsSection
+                {/* Trong 2 trang Lịch thi đấu, Kết quả: Show tin tức bóng đá dạng 1 hàng duy nhất theo mẫu VnExpress */}
+                {(currentTab === 'schedule' || currentTab === 'results') ? (
+                  <GeneralFootballNewsSection
                     leagueId={selectedLeagueId}
-                    leagueName={selectedLeague?.vietnameseName || selectedLeague?.name || "Giải đấu"}
+                    leagueName={selectedLeague?.vietnameseName || selectedLeague?.name}
                   />
-                )}
-
-                {/* Trong 2 trang Lịch thi đấu, Kết quả: Show tin tức bóng đá chung của tất cả các giải bên dưới */}
-                {(currentTab === 'schedule' || currentTab === 'results') && (
-                  <GeneralFootballNewsSection />
+                ) : (
+                  selectedLeagueId && (
+                    <LeagueNewsSection
+                      leagueId={selectedLeagueId}
+                      leagueName={selectedLeague?.vietnameseName || selectedLeague?.name || "Giải đấu"}
+                    />
+                  )
                 )}
 
                 {/* Mobile & Tablet Inline Standings Section (Always accessible when scrolling down on phone/tablet) */}
