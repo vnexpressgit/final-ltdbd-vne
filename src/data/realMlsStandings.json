@@ -1,0 +1,722 @@
+[
+  {
+    "rank": 1,
+    "team": {
+      "id": 1603,
+      "name": "Vancouver Whitecaps",
+      "logo": "https://is.vnecdn.net/objects/teams/1603.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 15,
+    "draw": 6,
+    "lose": 7,
+    "goalsFor": 61,
+    "goalsAgainst": 30,
+    "goalDifference": 31,
+    "points": 51,
+    "form": [
+      "D",
+      "L",
+      "D",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 1,
+    "team": {
+      "id": 9569,
+      "name": "Nashville SC",
+      "logo": "https://is.vnecdn.net/objects/teams/9569.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 19,
+    "draw": 6,
+    "lose": 3,
+    "goalsFor": 59,
+    "goalsAgainst": 22,
+    "goalDifference": 37,
+    "points": 63,
+    "form": [
+      "W",
+      "W",
+      "W",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 20787,
+      "name": "St. Louis City",
+      "logo": "https://is.vnecdn.net/objects/teams/20787.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 14,
+    "draw": 8,
+    "lose": 6,
+    "goalsFor": 54,
+    "goalsAgainst": 38,
+    "goalDifference": 16,
+    "points": 50,
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 9568,
+      "name": "Inter Miami",
+      "logo": "https://is.vnecdn.net/objects/teams/9568.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 13,
+    "draw": 10,
+    "lose": 5,
+    "goalsFor": 68,
+    "goalsAgainst": 50,
+    "goalDifference": 18,
+    "points": 49,
+    "form": [
+      "W",
+      "L",
+      "D",
+      "D",
+      "D"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 1597,
+      "name": "FC Dallas",
+      "logo": "https://is.vnecdn.net/objects/teams/1597.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 13,
+    "draw": 8,
+    "lose": 7,
+    "goalsFor": 52,
+    "goalsAgainst": 45,
+    "goalDifference": 7,
+    "points": 47,
+    "form": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 1607,
+      "name": "Chicago Fire",
+      "logo": "https://is.vnecdn.net/objects/teams/1607.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 14,
+    "draw": 6,
+    "lose": 8,
+    "goalsFor": 51,
+    "goalsAgainst": 40,
+    "goalDifference": 11,
+    "points": 48,
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 1596,
+      "name": "San Jose Earthquakes",
+      "logo": "https://is.vnecdn.net/objects/teams/1596.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 13,
+    "draw": 7,
+    "lose": 8,
+    "goalsFor": 50,
+    "goalsAgainst": 40,
+    "goalDifference": 10,
+    "points": 46,
+    "form": [
+      "D",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 1609,
+      "name": "New England Revolution",
+      "logo": "https://is.vnecdn.net/objects/teams/1609.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 14,
+    "draw": 4,
+    "lose": 10,
+    "goalsFor": 45,
+    "goalsAgainst": 39,
+    "goalDifference": 6,
+    "points": 46,
+    "form": [
+      "L",
+      "L",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 1600,
+      "name": "Houston Dynamo",
+      "logo": "https://is.vnecdn.net/objects/teams/1600.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 13,
+    "draw": 6,
+    "lose": 9,
+    "goalsFor": 36,
+    "goalsAgainst": 34,
+    "goalDifference": 2,
+    "points": 45,
+    "form": [
+      "D",
+      "L",
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 18310,
+      "name": "Charlotte",
+      "logo": "https://is.vnecdn.net/objects/teams/18310.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 13,
+    "draw": 7,
+    "lose": 8,
+    "goalsFor": 50,
+    "goalsAgainst": 40,
+    "goalDifference": 10,
+    "points": 46,
+    "form": [
+      "W",
+      "L",
+      "W",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 1616,
+      "name": "Los Angeles FC",
+      "logo": "https://is.vnecdn.net/objects/teams/1616.png?v=1",
+      "winner": null
+    },
+    "played": 29,
+    "win": 11,
+    "draw": 9,
+    "lose": 9,
+    "goalsFor": 44,
+    "goalsAgainst": 31,
+    "goalDifference": 13,
+    "points": 42,
+    "form": [
+      "D",
+      "L",
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 1599,
+      "name": "Philadelphia Union",
+      "logo": "https://is.vnecdn.net/objects/teams/1599.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 12,
+    "draw": 6,
+    "lose": 10,
+    "goalsFor": 56,
+    "goalsAgainst": 45,
+    "goalDifference": 11,
+    "points": 42,
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 1595,
+      "name": "Seattle Sounders",
+      "logo": "https://is.vnecdn.net/objects/teams/1595.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 11,
+    "draw": 8,
+    "lose": 9,
+    "goalsFor": 38,
+    "goalsAgainst": 35,
+    "goalDifference": 3,
+    "points": 41,
+    "form": [
+      "W",
+      "W",
+      "W",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 1598,
+      "name": "Orlando City SC",
+      "logo": "https://is.vnecdn.net/objects/teams/1598.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 11,
+    "draw": 4,
+    "lose": 13,
+    "goalsFor": 51,
+    "goalsAgainst": 66,
+    "goalDifference": -15,
+    "points": 37,
+    "form": [
+      "W",
+      "L",
+      "L",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 1610,
+      "name": "Colorado Rapids",
+      "logo": "https://is.vnecdn.net/objects/teams/1610.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 11,
+    "draw": 4,
+    "lose": 13,
+    "goalsFor": 39,
+    "goalsAgainst": 39,
+    "goalDifference": 0,
+    "points": 37,
+    "form": [
+      "D",
+      "L",
+      "D",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 1602,
+      "name": "New York Red Bulls",
+      "logo": "https://is.vnecdn.net/objects/teams/1602.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 10,
+    "draw": 6,
+    "lose": 12,
+    "goalsFor": 38,
+    "goalsAgainst": 52,
+    "goalDifference": -14,
+    "points": 36,
+    "form": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 1605,
+      "name": "Los Angeles Galaxy",
+      "logo": "https://is.vnecdn.net/objects/teams/1605.png?v=1",
+      "winner": null
+    },
+    "played": 29,
+    "win": 9,
+    "draw": 9,
+    "lose": 11,
+    "goalsFor": 39,
+    "goalsAgainst": 50,
+    "goalDifference": -11,
+    "points": 36,
+    "form": [
+      "L",
+      "W",
+      "W",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 2242,
+      "name": "FC Cincinnati",
+      "logo": "https://is.vnecdn.net/objects/teams/2242.png?v=1",
+      "winner": null
+    },
+    "played": 27,
+    "win": 9,
+    "draw": 9,
+    "lose": 9,
+    "goalsFor": 58,
+    "goalsAgainst": 65,
+    "goalDifference": -7,
+    "points": 36,
+    "form": [
+      "W",
+      "L",
+      "D",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 1617,
+      "name": "Portland Timbers",
+      "logo": "https://is.vnecdn.net/objects/teams/1617.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 9,
+    "draw": 6,
+    "lose": 13,
+    "goalsFor": 51,
+    "goalsAgainst": 54,
+    "goalDifference": -3,
+    "points": 33,
+    "form": [
+      "D",
+      "L",
+      "L",
+      "L",
+      "D"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 1604,
+      "name": "New York City FC",
+      "logo": "https://is.vnecdn.net/objects/teams/1604.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 8,
+    "draw": 9,
+    "lose": 11,
+    "goalsFor": 42,
+    "goalsAgainst": 38,
+    "goalDifference": 4,
+    "points": 33,
+    "form": [
+      "L",
+      "D",
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 1606,
+      "name": "Real Salt Lake",
+      "logo": "https://is.vnecdn.net/objects/teams/1606.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 9,
+    "draw": 5,
+    "lose": 14,
+    "goalsFor": 41,
+    "goalsAgainst": 46,
+    "goalDifference": -5,
+    "points": 32,
+    "form": [
+      "L",
+      "W",
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 1601,
+      "name": "Toronto FC",
+      "logo": "https://is.vnecdn.net/objects/teams/1601.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 7,
+    "draw": 11,
+    "lose": 10,
+    "goalsFor": 41,
+    "goalsAgainst": 52,
+    "goalDifference": -11,
+    "points": 32,
+    "form": [
+      "W",
+      "L",
+      "L",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 25484,
+      "name": "San Diego",
+      "logo": "https://is.vnecdn.net/objects/teams/25484.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 8,
+    "draw": 8,
+    "lose": 12,
+    "goalsFor": 48,
+    "goalsAgainst": 51,
+    "goalDifference": -3,
+    "points": 32,
+    "form": [
+      "L",
+      "D",
+      "D",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 1615,
+      "name": "DC United",
+      "logo": "https://is.vnecdn.net/objects/teams/1615.png?v=1",
+      "winner": null
+    },
+    "played": 27,
+    "win": 6,
+    "draw": 12,
+    "lose": 9,
+    "goalsFor": 34,
+    "goalsAgainst": 46,
+    "goalDifference": -12,
+    "points": 30,
+    "form": [
+      "L",
+      "D",
+      "L",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 16489,
+      "name": "Austin",
+      "logo": "https://is.vnecdn.net/objects/teams/16489.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 7,
+    "draw": 10,
+    "lose": 11,
+    "goalsFor": 36,
+    "goalsAgainst": 51,
+    "goalDifference": -15,
+    "points": 31,
+    "form": [
+      "L",
+      "D",
+      "D",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 1613,
+      "name": "Columbus Crew",
+      "logo": "https://is.vnecdn.net/objects/teams/1613.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 8,
+    "draw": 5,
+    "lose": 15,
+    "goalsFor": 41,
+    "goalsAgainst": 46,
+    "goalDifference": -5,
+    "points": 29,
+    "form": [
+      "L",
+      "W",
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 1612,
+      "name": "Minnesota United FC",
+      "logo": "https://is.vnecdn.net/objects/teams/1612.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 7,
+    "draw": 9,
+    "lose": 12,
+    "goalsFor": 42,
+    "goalsAgainst": 51,
+    "goalDifference": -9,
+    "points": 30,
+    "form": [
+      "D",
+      "L",
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 1608,
+      "name": "Atlanta United FC",
+      "logo": "https://is.vnecdn.net/objects/teams/1608.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 7,
+    "draw": 6,
+    "lose": 15,
+    "goalsFor": 33,
+    "goalsAgainst": 48,
+    "goalDifference": -15,
+    "points": 27,
+    "form": [
+      "L",
+      "D",
+      "W",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 15,
+    "team": {
+      "id": 1611,
+      "name": "Sporting Kansas City",
+      "logo": "https://is.vnecdn.net/objects/teams/1611.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 6,
+    "draw": 4,
+    "lose": 18,
+    "goalsFor": 35,
+    "goalsAgainst": 68,
+    "goalDifference": -33,
+    "points": 22,
+    "form": [
+      "D",
+      "L",
+      "W",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 15,
+    "team": {
+      "id": 1614,
+      "name": "CF Montreal",
+      "logo": "https://is.vnecdn.net/objects/teams/1614.png?v=1",
+      "winner": null
+    },
+    "played": 28,
+    "win": 6,
+    "draw": 6,
+    "lose": 16,
+    "goalsFor": 35,
+    "goalsAgainst": 56,
+    "goalDifference": -21,
+    "points": 24,
+    "form": [
+      "L",
+      "W",
+      "L",
+      "L",
+      "L"
+    ]
+  }
+]

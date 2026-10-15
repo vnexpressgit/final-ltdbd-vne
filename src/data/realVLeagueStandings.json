@@ -1,0 +1,310 @@
+[
+  {
+    "rank": 1,
+    "team": {
+      "id": 16400,
+      "name": "CAHN",
+      "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 3,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 0,
+    "goalDifference": 6,
+    "points": 9,
+    "form": [
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 9167,
+      "name": "Ninh Bình",
+      "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 2,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 7,
+    "goalsAgainst": 3,
+    "goalDifference": 4,
+    "points": 7,
+    "form": [
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 3678,
+      "name": "SLNA",
+      "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 2,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 6,
+    "goalsAgainst": 2,
+    "goalDifference": 4,
+    "points": 7,
+    "form": [
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 3680,
+      "name": "Thanh Hóa",
+      "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 2,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 5,
+    "goalDifference": 1,
+    "points": 6,
+    "form": [
+      "W",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 11134,
+      "name": "Hà Tĩnh ",
+      "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 2,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "goalDifference": 1,
+    "points": 6,
+    "form": [
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 3674,
+      "name": "Nam Định",
+      "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 5,
+    "goalsAgainst": 4,
+    "goalDifference": 1,
+    "points": 4,
+    "form": [
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 3672,
+      "name": "CA TP HCM",
+      "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 4,
+    "goalsAgainst": 3,
+    "goalDifference": 1,
+    "points": 4,
+    "form": [
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 3669,
+      "name": "Đà Nẵng",
+      "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 0,
+    "lose": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 6,
+    "goalDifference": -1,
+    "points": 3,
+    "form": [
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 3681,
+      "name": "Thể Công",
+      "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 0,
+    "lose": 2,
+    "goalsFor": 3,
+    "goalsAgainst": 4,
+    "goalDifference": -1,
+    "points": 3,
+    "form": [
+      "L",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 26601,
+      "name": "Bắc Ninh",
+      "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 0,
+    "lose": 2,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "goalDifference": -1,
+    "points": 3,
+    "form": [
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 3671,
+      "name": "Hải Phòng",
+      "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 0,
+    "lose": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "goalDifference": -2,
+    "points": 3,
+    "form": [
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 3673,
+      "name": "HAGL",
+      "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 0,
+    "lose": 2,
+    "goalsFor": 4,
+    "goalsAgainst": 7,
+    "goalDifference": -3,
+    "points": 3,
+    "form": [
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 3670,
+      "name": "Hà Nội FC",
+      "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 1,
+    "draw": 0,
+    "lose": 2,
+    "goalsFor": 3,
+    "goalsAgainst": 7,
+    "goalDifference": -4,
+    "points": 3,
+    "form": [
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 9161,
+      "name": "Bình Phước",
+      "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+      "winner": null
+    },
+    "played": 3,
+    "win": 0,
+    "draw": 0,
+    "lose": 3,
+    "goalsFor": 0,
+    "goalsAgainst": 6,
+    "goalDifference": -6,
+    "points": 0,
+    "form": [
+      "L",
+      "L",
+      "L"
+    ]
+  }
+]

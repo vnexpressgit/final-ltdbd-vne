@@ -1,0 +1,722 @@
+[
+  {
+    "rank": 1,
+    "team": {
+      "id": 496,
+      "name": "Juventus",
+      "logo": "https://is.vnecdn.net/objects/teams/496.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 5,
+    "goalsAgainst": 0,
+    "goalDifference": 5,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 52,
+      "name": "Crystal Palace",
+      "logo": "https://is.vnecdn.net/objects/teams/52.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 0,
+    "goalDifference": 4,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 628,
+      "name": "Sparta Praha",
+      "logo": "https://is.vnecdn.net/objects/teams/628.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "goalDifference": 3,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 549,
+      "name": "Beşiktaş",
+      "logo": "https://is.vnecdn.net/objects/teams/549.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 4,
+    "goalsAgainst": 1,
+    "goalDifference": 3,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 1393,
+      "name": "Union St. Gilloise",
+      "logo": "https://is.vnecdn.net/objects/teams/1393.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "goalDifference": 3,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 651,
+      "name": "Ferencvarosi ",
+      "logo": "https://is.vnecdn.net/objects/teams/651.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 1,
+    "goalDifference": 2,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 211,
+      "name": "Benfica",
+      "logo": "https://is.vnecdn.net/objects/teams/211.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "goalDifference": 2,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 168,
+      "name": "Leverkusen",
+      "logo": "https://is.vnecdn.net/objects/teams/168.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "goalDifference": 2,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 1124,
+      "name": "OFI",
+      "logo": "https://is.vnecdn.net/objects/teams/1124.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 0,
+    "goalDifference": 2,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 35,
+      "name": "Bournemouth",
+      "logo": "https://is.vnecdn.net/objects/teams/35.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 80,
+      "name": "Lyon",
+      "logo": "https://is.vnecdn.net/objects/teams/80.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 4799,
+      "name": "Torreense",
+      "logo": "https://is.vnecdn.net/objects/teams/4799.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 553,
+      "name": "Olympiakos",
+      "logo": "https://is.vnecdn.net/objects/teams/553.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 2,
+    "goalsAgainst": 1,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 571,
+      "name": "Salzburg",
+      "logo": "https://is.vnecdn.net/objects/teams/571.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 15,
+    "team": {
+      "id": 746,
+      "name": "Sunderland",
+      "logo": "https://is.vnecdn.net/objects/teams/746.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 16,
+    "team": {
+      "id": 3402,
+      "name": "AC Omonia ",
+      "logo": "https://is.vnecdn.net/objects/teams/3402.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 1,
+    "draw": 0,
+    "lose": 0,
+    "goalsFor": 1,
+    "goalsAgainst": 0,
+    "goalDifference": 1,
+    "points": 3,
+    "form": [
+      "W"
+    ]
+  },
+  {
+    "rank": 17,
+    "team": {
+      "id": 637,
+      "name": "Sturm Graz",
+      "logo": "https://is.vnecdn.net/objects/teams/637.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "goalDifference": 0,
+    "points": 1,
+    "form": [
+      "D"
+    ]
+  },
+  {
+    "rank": 18,
+    "team": {
+      "id": 94,
+      "name": "Rennes",
+      "logo": "https://is.vnecdn.net/objects/teams/94.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "goalDifference": 0,
+    "points": 1,
+    "form": [
+      "D"
+    ]
+  },
+  {
+    "rank": 19,
+    "team": {
+      "id": 620,
+      "name": "Dinamo Zagreb",
+      "logo": "https://is.vnecdn.net/objects/teams/620.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "goalDifference": 0,
+    "points": 1,
+    "form": [
+      "D"
+    ]
+  },
+  {
+    "rank": 20,
+    "team": {
+      "id": 563,
+      "name": "H. Beer Sheva",
+      "logo": "https://is.vnecdn.net/objects/teams/563.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 0,
+    "goalsAgainst": 0,
+    "goalDifference": 0,
+    "points": 1,
+    "form": [
+      "D"
+    ]
+  },
+  {
+    "rank": 21,
+    "team": {
+      "id": 336,
+      "name": "Jagiellonia",
+      "logo": "https://is.vnecdn.net/objects/teams/336.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 22,
+    "team": {
+      "id": 548,
+      "name": "Sociedad",
+      "logo": "https://is.vnecdn.net/objects/teams/548.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 23,
+    "team": {
+      "id": 554,
+      "name": "Anderlecht",
+      "logo": "https://is.vnecdn.net/objects/teams/554.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 24,
+    "team": {
+      "id": 321,
+      "name": "Lillestrom",
+      "logo": "https://is.vnecdn.net/objects/teams/321.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 2,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 25,
+    "team": {
+      "id": 538,
+      "name": "Celta Vigo",
+      "logo": "https://is.vnecdn.net/objects/teams/538.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 1,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 26,
+    "team": {
+      "id": 201,
+      "name": "AZ Alkmaar",
+      "logo": "https://is.vnecdn.net/objects/teams/201.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 1,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 27,
+    "team": {
+      "id": 646,
+      "name": "Levski Sofia",
+      "logo": "https://is.vnecdn.net/objects/teams/646.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 1,
+    "goalDifference": -1,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 28,
+    "team": {
+      "id": 247,
+      "name": "Celtic",
+      "logo": "https://is.vnecdn.net/objects/teams/247.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 3,
+    "goalDifference": -2,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 29,
+    "team": {
+      "id": 167,
+      "name": "Hoffenheim",
+      "logo": "https://is.vnecdn.net/objects/teams/167.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 2,
+    "goalDifference": -2,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 30,
+    "team": {
+      "id": 489,
+      "name": "AC Milan",
+      "logo": "https://is.vnecdn.net/objects/teams/489.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 2,
+    "goalDifference": -2,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 31,
+    "team": {
+      "id": 4360,
+      "name": "Celje",
+      "logo": "https://is.vnecdn.net/objects/teams/4360.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 2,
+    "goalDifference": -2,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 32,
+    "team": {
+      "id": 81,
+      "name": "Marseille",
+      "logo": "https://is.vnecdn.net/objects/teams/81.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "goalDifference": -3,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 33,
+    "team": {
+      "id": 3683,
+      "name": "Ararat-Armenia",
+      "logo": "https://is.vnecdn.net/objects/teams/3683.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 1,
+    "goalsAgainst": 4,
+    "goalDifference": -3,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 34,
+    "team": {
+      "id": 567,
+      "name": "Plzen",
+      "logo": "https://is.vnecdn.net/objects/teams/567.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 3,
+    "goalDifference": -3,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 35,
+    "team": {
+      "id": 347,
+      "name": "Lech Poznan",
+      "logo": "https://is.vnecdn.net/objects/teams/347.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 4,
+    "goalDifference": -4,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  },
+  {
+    "rank": 36,
+    "team": {
+      "id": 413,
+      "name": "NEC Nijmegen",
+      "logo": "https://is.vnecdn.net/objects/teams/413.png?v=1",
+      "winner": null
+    },
+    "played": 1,
+    "win": 0,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 0,
+    "goalsAgainst": 5,
+    "goalDifference": -5,
+    "points": 0,
+    "form": [
+      "L"
+    ]
+  }
+]

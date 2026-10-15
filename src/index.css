@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bai: "Bai Jamjuree", sans-serif;
+  --font-serif: "Merriweather", Georgia, "Times New Roman", serif;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --vne-red: #9f224e;
+  --vne-red-hover: #831b40;
+  --vne-dark: #38404d;
+  --vne-muted: #636b79;
+  --vne-bg: #f9f9f9;
+  --vne-border: #e5e5e5;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #222222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-bai {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.font-serif-vne {
+  font-family: "Merriweather", Georgia, "Times New Roman", serif;
+}
+
+/* VnExpress LIVE Badge animation */
+@keyframes vnePulse {
+  0% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animate-vne-live {
+  animation: vnePulse 1.6s ease-in-out infinite;
+}
+
+/* Custom scrollbars for date carousel and horizontal tabs */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

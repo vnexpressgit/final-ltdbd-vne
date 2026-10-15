@@ -1,0 +1,482 @@
+[
+  {
+    "rank": 1,
+    "team": {
+      "id": 505,
+      "name": "Inter",
+      "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 5,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 18,
+    "goalsAgainst": 8,
+    "goalDifference": 10,
+    "points": 16,
+    "form": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 487,
+      "name": "Lazio",
+      "logo": "https://is.vnecdn.net/objects/teams/487.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 5,
+    "draw": 1,
+    "lose": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 4,
+    "goalDifference": 7,
+    "points": 16,
+    "form": [
+      "W",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 497,
+      "name": "AS Roma",
+      "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 4,
+    "draw": 2,
+    "lose": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 3,
+    "goalDifference": 11,
+    "points": 14,
+    "form": [
+      "D",
+      "D",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 490,
+      "name": "Cagliari",
+      "logo": "https://is.vnecdn.net/objects/teams/490.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 4,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 6,
+    "goalsAgainst": 3,
+    "goalDifference": 3,
+    "points": 13,
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 489,
+      "name": "AC Milan",
+      "logo": "https://is.vnecdn.net/objects/teams/489.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 3,
+    "lose": 0,
+    "goalsFor": 11,
+    "goalsAgainst": 5,
+    "goalDifference": 6,
+    "points": 12,
+    "form": [
+      "D",
+      "W",
+      "D",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 496,
+      "name": "Juventus",
+      "logo": "https://is.vnecdn.net/objects/teams/496.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 2,
+    "lose": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 5,
+    "goalDifference": 4,
+    "points": 11,
+    "form": [
+      "D",
+      "W",
+      "L",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 895,
+      "name": "Como",
+      "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 2,
+    "lose": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 6,
+    "goalDifference": 3,
+    "points": 11,
+    "form": [
+      "D",
+      "L",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 492,
+      "name": "Napoli",
+      "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 1,
+    "lose": 2,
+    "goalsFor": 10,
+    "goalsAgainst": 6,
+    "goalDifference": 4,
+    "points": 10,
+    "form": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 512,
+      "name": "Frosinone",
+      "logo": "https://is.vnecdn.net/objects/teams/512.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 1,
+    "lose": 2,
+    "goalsFor": 9,
+    "goalsAgainst": 7,
+    "goalDifference": 2,
+    "points": 10,
+    "form": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 499,
+      "name": "Atalanta",
+      "logo": "https://is.vnecdn.net/objects/teams/499.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 0,
+    "lose": 3,
+    "goalsFor": 8,
+    "goalsAgainst": 8,
+    "goalDifference": 0,
+    "points": 9,
+    "form": [
+      "W",
+      "L",
+      "L",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 488,
+      "name": "Sassuolo",
+      "logo": "https://is.vnecdn.net/objects/teams/488.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 2,
+    "lose": 2,
+    "goalsFor": 10,
+    "goalsAgainst": 10,
+    "goalDifference": 0,
+    "points": 8,
+    "form": [
+      "D",
+      "L",
+      "W",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 503,
+      "name": "Torino",
+      "logo": "https://is.vnecdn.net/objects/teams/503.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 1,
+    "lose": 3,
+    "goalsFor": 7,
+    "goalsAgainst": 9,
+    "goalDifference": -2,
+    "points": 7,
+    "form": [
+      "W",
+      "D",
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 867,
+      "name": "Lecce",
+      "logo": "https://is.vnecdn.net/objects/teams/867.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 0,
+    "lose": 4,
+    "goalsFor": 6,
+    "goalsAgainst": 12,
+    "goalDifference": -6,
+    "points": 6,
+    "form": [
+      "L",
+      "L",
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 500,
+      "name": "Bologna",
+      "logo": "https://is.vnecdn.net/objects/teams/500.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 2,
+    "lose": 3,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "goalDifference": -2,
+    "points": 5,
+    "form": [
+      "W",
+      "D",
+      "L",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 15,
+    "team": {
+      "id": 494,
+      "name": "Udinese",
+      "logo": "https://is.vnecdn.net/objects/teams/494.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 1,
+    "lose": 4,
+    "goalsFor": 9,
+    "goalsAgainst": 13,
+    "goalDifference": -4,
+    "points": 4,
+    "form": [
+      "L",
+      "L",
+      "L",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 16,
+    "team": {
+      "id": 1579,
+      "name": "Monza",
+      "logo": "https://is.vnecdn.net/objects/teams/1579.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 1,
+    "lose": 4,
+    "goalsFor": 9,
+    "goalsAgainst": 15,
+    "goalDifference": -6,
+    "points": 4,
+    "form": [
+      "L",
+      "W",
+      "L",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 17,
+    "team": {
+      "id": 495,
+      "name": "Genoa",
+      "logo": "https://is.vnecdn.net/objects/teams/495.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 1,
+    "lose": 4,
+    "goalsFor": 5,
+    "goalsAgainst": 11,
+    "goalDifference": -6,
+    "points": 4,
+    "form": [
+      "W",
+      "L",
+      "D",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 18,
+    "team": {
+      "id": 523,
+      "name": "Parma",
+      "logo": "https://is.vnecdn.net/objects/teams/523.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 1,
+    "lose": 4,
+    "goalsFor": 4,
+    "goalsAgainst": 10,
+    "goalDifference": -6,
+    "points": 4,
+    "form": [
+      "L",
+      "W",
+      "L",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 19,
+    "team": {
+      "id": 502,
+      "name": "Fiorentina",
+      "logo": "https://is.vnecdn.net/objects/teams/502.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 1,
+    "lose": 4,
+    "goalsFor": 7,
+    "goalsAgainst": 14,
+    "goalDifference": -7,
+    "points": 4,
+    "form": [
+      "L",
+      "D",
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 20,
+    "team": {
+      "id": 517,
+      "name": "Venezia",
+      "logo": "https://is.vnecdn.net/objects/teams/517.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 0,
+    "draw": 0,
+    "lose": 6,
+    "goalsFor": 5,
+    "goalsAgainst": 16,
+    "goalDifference": -11,
+    "points": 0,
+    "form": [
+      "L",
+      "L",
+      "L",
+      "L",
+      "L"
+    ]
+  }
+]

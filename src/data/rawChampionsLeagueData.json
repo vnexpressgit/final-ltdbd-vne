@@ -1,0 +1,4878 @@
+{
+  "code": 200,
+  "data": {
+    "2": {
+      "data": [
+        {
+          "fixture_id": 1635643,
+          "league_id": 2,
+          "event_date": "2026-09-08T23:45:00+07:00",
+          "event_timestamp": 1788885900,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Jan Breydel Stadium, Bruges",
+          "referee": "Sandro Schärer, Switzerland",
+          "goals_home_team": 2,
+          "goals_away_team": 3,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "away_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "score": {
+            "halftime": "1-3",
+            "fulltime": "2-3"
+          },
+          "position": 1
+        },
+        {
+          "fixture_id": 1635609,
+          "league_id": 2,
+          "event_date": "2026-09-08T23:45:00+07:00",
+          "event_timestamp": 1788885900,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Allwyn Arena, Athens",
+          "referee": "Luís Godinho, Portugal",
+          "goals_home_team": 1,
+          "goals_away_team": 0,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "away_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "score": {
+            "halftime": "1-0",
+            "fulltime": "1-0"
+          },
+          "position": 2
+        },
+        {
+          "fixture_id": 1635683,
+          "league_id": 2,
+          "event_date": "2026-09-09T02:00:00+07:00",
+          "event_timestamp": 1788894000,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Decathlon Arena - Stade Pierre Mauroy, Lille",
+          "referee": "Georgi Kabakov, Bulgaria",
+          "goals_home_team": 2,
+          "goals_away_team": 3,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "away_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "score": {
+            "halftime": "2-1",
+            "fulltime": "2-3"
+          },
+          "position": 3
+        },
+        {
+          "fixture_id": 1635652,
+          "league_id": 2,
+          "event_date": "2026-09-09T02:00:00+07:00",
+          "event_timestamp": 1788894000,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Signal Iduna Park, Dortmund",
+          "referee": "Simone Sozza, Italy",
+          "goals_home_team": 3,
+          "goals_away_team": 2,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "away_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "score": {
+            "halftime": "0-0",
+            "fulltime": "3-2"
+          },
+          "position": 4
+        },
+        {
+          "fixture_id": 1635654,
+          "league_id": 2,
+          "event_date": "2026-09-09T02:00:00+07:00",
+          "event_timestamp": 1788894000,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Estádio do Dragão, Porto",
+          "referee": "Szymon Marciniak, Poland",
+          "goals_home_team": 0,
+          "goals_away_team": 2,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "away_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "score": {
+            "halftime": "0-0",
+            "fulltime": "0-2"
+          },
+          "position": 5
+        },
+        {
+          "fixture_id": 1635714,
+          "league_id": 2,
+          "event_date": "2026-09-09T02:00:00+07:00",
+          "event_timestamp": 1788894000,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Bernabéu, Madrid",
+          "referee": "Michael Oliver, England",
+          "goals_home_team": 2,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "away_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "score": {
+            "halftime": "2-0",
+            "fulltime": "2-1"
+          },
+          "position": 6
+        },
+        {
+          "fixture_id": 1635741,
+          "league_id": 2,
+          "event_date": "2026-09-09T23:45:00+07:00",
+          "event_timestamp": 1788972300,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "MHP Arena, Stuttgart",
+          "referee": "Nenad Minaković, Serbia",
+          "goals_home_team": 3,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "away_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "score": {
+            "halftime": "3-1",
+            "fulltime": "3-1"
+          },
+          "position": 7
+        },
+        {
+          "fixture_id": 1635628,
+          "league_id": 2,
+          "event_date": "2026-09-09T23:45:00+07:00",
+          "event_timestamp": 1788972300,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Spotify Camp Nou, Barcelona",
+          "referee": "Sven Jablonski, Germany",
+          "goals_home_team": 5,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "away_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "score": {
+            "halftime": "2-0",
+            "fulltime": "5-1"
+          },
+          "position": 8
+        },
+        {
+          "fixture_id": 1635686,
+          "league_id": 2,
+          "event_date": "2026-09-10T02:00:00+07:00",
+          "event_timestamp": 1788980400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Anfield, Liverpool",
+          "referee": "Davide Massa, Italy",
+          "goals_home_team": 2,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "away_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "score": {
+            "halftime": "1-1",
+            "fulltime": "2-1"
+          },
+          "position": 9
+        },
+        {
+          "fixture_id": 1635705,
+          "league_id": 2,
+          "event_date": "2026-09-10T02:00:00+07:00",
+          "event_timestamp": 1788980400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Parc des Princes, Paris",
+          "referee": "Mykola Balakin, Ukraine",
+          "goals_home_team": 6,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "away_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "score": {
+            "halftime": "3-0",
+            "fulltime": "6-1"
+          },
+          "position": 10
+        },
+        {
+          "fixture_id": 1635736,
+          "league_id": 2,
+          "event_date": "2026-09-10T02:00:00+07:00",
+          "event_timestamp": 1788980400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Estádio José Alvalade, Lisbon",
+          "referee": "Espen Eskas, Norway",
+          "goals_home_team": 3,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "away_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "score": {
+            "halftime": "1-1",
+            "fulltime": "3-1"
+          },
+          "position": 11
+        },
+        {
+          "fixture_id": 1635698,
+          "league_id": 2,
+          "event_date": "2026-09-10T02:00:00+07:00",
+          "event_timestamp": 1788980400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Stadio Diego Armando Maradona, Naples",
+          "referee": "Glenn Nyberg, Sweden",
+          "goals_home_team": 0,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "away_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "score": {
+            "halftime": "0-0",
+            "fulltime": "0-1"
+          },
+          "position": 12
+        },
+        {
+          "fixture_id": 1635708,
+          "league_id": 2,
+          "event_date": "2026-09-10T23:45:00+07:00",
+          "event_timestamp": 1789058700,
+          "first_half_start": 1789058700,
+          "second_half_start": 1789062300,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Philips Stadion, Eindhoven",
+          "referee": "Halil Umut Meler",
+          "goals_home_team": 1,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "away_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "score": {
+            "halftime": "0-1",
+            "fulltime": "1-1"
+          },
+          "position": 13
+        },
+        {
+          "fixture_id": 1635659,
+          "league_id": 2,
+          "event_date": "2026-09-10T23:45:00+07:00",
+          "event_timestamp": 1789058700,
+          "first_half_start": 1789058700,
+          "second_half_start": 1789062300,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Chobani Stadium, Istanbul",
+          "referee": "Jesus Gil Manzano",
+          "goals_home_team": 1,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "away_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "score": {
+            "halftime": "0-1",
+            "fulltime": "1-1"
+          },
+          "position": 14
+        },
+        {
+          "fixture_id": 1635697,
+          "league_id": 2,
+          "event_date": "2026-09-11T02:00:00+07:00",
+          "event_timestamp": 1789066800,
+          "first_half_start": 1789066800,
+          "second_half_start": 1789070400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Old Trafford, Manchester",
+          "referee": "Willy Delajod",
+          "goals_home_team": 4,
+          "goals_away_team": 0,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "away_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "score": {
+            "halftime": "3-0",
+            "fulltime": "4-0"
+          },
+          "position": 15
+        },
+        {
+          "fixture_id": 1635632,
+          "league_id": 2,
+          "event_date": "2026-09-11T02:00:00+07:00",
+          "event_timestamp": 1789066800,
+          "first_half_start": 1789066800,
+          "second_half_start": 1789070400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Allianz Arena, Munich",
+          "referee": "Rade Obrenovic",
+          "goals_home_team": 5,
+          "goals_away_team": 0,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "away_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "score": {
+            "halftime": "0-0",
+            "fulltime": "5-0"
+          },
+          "position": 16
+        },
+        {
+          "fixture_id": 1635729,
+          "league_id": 2,
+          "event_date": "2026-09-11T02:00:00+07:00",
+          "event_timestamp": 1789066800,
+          "first_half_start": 1789066800,
+          "second_half_start": 1789070400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Sinobo Stadium, Prague",
+          "referee": "Vassilis Fotias",
+          "goals_home_team": 2,
+          "goals_away_team": 3,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "away_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "score": {
+            "halftime": "0-0",
+            "fulltime": "2-3"
+          },
+          "position": 17
+        },
+        {
+          "fixture_id": 1635648,
+          "league_id": 2,
+          "event_date": "2026-09-11T02:00:00+07:00",
+          "event_timestamp": 1789066800,
+          "first_half_start": 1789066800,
+          "second_half_start": 1789070400,
+          "round": "League Stage - 1",
+          "status": "Match Finished",
+          "status_short": "FT",
+          "elapsed": 90,
+          "venue": "Stadio Giuseppe Sinigaglia, Como",
+          "referee": "Serdar Gozubuyuk",
+          "goals_home_team": 4,
+          "goals_away_team": 1,
+          "round_int": 1,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "away_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "score": {
+            "halftime": "2-0",
+            "fulltime": "4-1"
+          },
+          "position": 18
+        },
+        {
+          "fixture_id": 1635679,
+          "league_id": 2,
+          "event_date": "2026-10-13T23:45:00+07:00",
+          "event_timestamp": 1791909900,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Bollaert-Delelis, Lens",
+          "referee": "Igor Pajac",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "away_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "score": {},
+          "position": 19
+        },
+        {
+          "fixture_id": 1635721,
+          "league_id": 2,
+          "event_date": "2026-10-13T23:45:00+07:00",
+          "event_timestamp": 1791909900,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Baku Olympic Stadium, Baku",
+          "referee": "Sebastian Gishamer",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "away_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "score": {},
+          "position": 20
+        },
+        {
+          "fixture_id": 1635612,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Emirates Stadium, London",
+          "referee": "Felix Zwayer",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "away_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "score": {},
+          "position": 21
+        },
+        {
+          "fixture_id": 1635711,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Leipzig Red Bull Arena, Leipzig",
+          "referee": "Nick Walsh",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "away_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "score": {},
+          "position": 22
+        },
+        {
+          "fixture_id": 1635671,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "San Siro/Giuseppe Meazza, Milan",
+          "referee": "Rohit Saggi",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "away_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "score": {},
+          "position": 23
+        },
+        {
+          "fixture_id": 1635623,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Riyadh Air Metropolitano, Madrid",
+          "referee": "Glenn Nyberg",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/2.png?v=1"
+          },
+          "home_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "away_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "score": {},
+          "position": 24
+        },
+        {
+          "fixture_id": 1635748,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de la Cerámica, Villarreal",
+          "referee": "Daniel Siebert",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "away_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "score": {},
+          "position": 25
+        },
+        {
+          "fixture_id": 1635666,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Rams Park, Istanbul",
+          "referee": "Marco Guida",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "away_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "score": {},
+          "position": 26
+        },
+        {
+          "fixture_id": 1635742,
+          "league_id": 2,
+          "event_date": "2026-10-14T02:00:00+07:00",
+          "event_timestamp": 1791918000,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "SR-Bank Arena, Stavanger",
+          "referee": "Georgi Nikolov Kabakov",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "away_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "score": {},
+          "position": 27
+        },
+        {
+          "fixture_id": 1635665,
+          "league_id": 2,
+          "event_date": "2026-10-14T23:45:00+07:00",
+          "event_timestamp": 1791996300,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadion Feijenoord, Rotterdam",
+          "referee": "Donatas Rumsas",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "away_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "score": {},
+          "position": 28
+        },
+        {
+          "fixture_id": 1635674,
+          "league_id": 2,
+          "event_date": "2026-10-14T23:45:00+07:00",
+          "event_timestamp": 1791996300,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Raiffeisen Arena, Linz",
+          "referee": "Tobias Stieler",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "away_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "score": {},
+          "position": 29
+        },
+        {
+          "fixture_id": 1635690,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Etihad Stadium, Manchester",
+          "referee": "Sven Jablonski",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "away_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "score": {},
+          "position": 30
+        },
+        {
+          "fixture_id": 1635620,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Villa Park, Birmingham",
+          "referee": "Ivan Kruzliak",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "away_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "score": {},
+          "position": 31
+        },
+        {
+          "fixture_id": 1635639,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Aspmyra Stadion, Hakata",
+          "referee": "Urs Schnyder",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "away_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "score": {},
+          "position": 32
+        },
+        {
+          "fixture_id": 1635614,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Olimpico, Rome",
+          "referee": "Francois Letexier",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "away_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "score": {},
+          "position": 33
+        },
+        {
+          "fixture_id": 1635635,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de la Cartuja, Seville",
+          "referee": "Clement Turpin",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "away_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "score": {},
+          "position": 34
+        },
+        {
+          "fixture_id": 1635725,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stamford Bridge, London",
+          "referee": "Chris Kavanagh",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "away_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "score": {},
+          "position": 35
+        },
+        {
+          "fixture_id": 1635733,
+          "league_id": 2,
+          "event_date": "2026-10-15T02:00:00+07:00",
+          "event_timestamp": 1792004400,
+          "round": "League Stage - 2",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Tehelne Pole Stadion, Bratislava",
+          "referee": "Irfan Peljto",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 2,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "away_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "score": {},
+          "position": 36
+        },
+        {
+          "fixture_id": 1635661,
+          "league_id": 2,
+          "event_date": "2026-10-20T23:45:00+07:00",
+          "event_timestamp": 1792514700,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Chobani Stadium Fenerbahce Sukru Saracoglu, Istanbul",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "away_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "score": {},
+          "position": 37
+        },
+        {
+          "fixture_id": 1635719,
+          "league_id": 2,
+          "event_date": "2026-10-20T23:45:00+07:00",
+          "event_timestamp": 1792514700,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Bank Respublika Arena",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "away_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "score": {},
+          "position": 38
+        },
+        {
+          "fixture_id": 1635688,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Anfield, Liverpool",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "away_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "score": {},
+          "position": 39
+        },
+        {
+          "fixture_id": 1635693,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Etihad Stadium, Manchester",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "away_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "score": {},
+          "position": 40
+        },
+        {
+          "fixture_id": 1635702,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Parc des Princes, Paris",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "away_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "score": {},
+          "position": 41
+        },
+        {
+          "fixture_id": 1635738,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "MHPArena, Stuttgart",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "away_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "score": {},
+          "position": 42
+        },
+        {
+          "fixture_id": 1635655,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Porto",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "away_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "score": {},
+          "position": 43
+        },
+        {
+          "fixture_id": 1635700,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Diego Armando Maradona, Naples",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "away_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "score": {},
+          "position": 44
+        },
+        {
+          "fixture_id": 1635617,
+          "league_id": 2,
+          "event_date": "2026-10-21T02:00:00+07:00",
+          "event_timestamp": 1792522800,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Olimpico, Rome",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "away_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "score": {},
+          "position": 45
+        },
+        {
+          "fixture_id": 1635684,
+          "league_id": 2,
+          "event_date": "2026-10-21T23:45:00+07:00",
+          "event_timestamp": 1792601100,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Pierre-Mauroy",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "away_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "score": {},
+          "position": 46
+        },
+        {
+          "fixture_id": 1635647,
+          "league_id": 2,
+          "event_date": "2026-10-21T23:45:00+07:00",
+          "event_timestamp": 1792601100,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "away_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "score": {},
+          "position": 47
+        },
+        {
+          "fixture_id": 1635621,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Villa Park, Birmingham",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "away_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "score": {},
+          "position": 48
+        },
+        {
+          "fixture_id": 1635630,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Allianz Arena, Munich",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "away_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "score": {},
+          "position": 49
+        },
+        {
+          "fixture_id": 1635737,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Lisbon",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "away_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "score": {},
+          "position": 50
+        },
+        {
+          "fixture_id": 1635672,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Milan",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "away_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "score": {},
+          "position": 51
+        },
+        {
+          "fixture_id": 1635716,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Madrid",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "away_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "score": {},
+          "position": 52
+        },
+        {
+          "fixture_id": 1635636,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de La Cartuja, Sevilla",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "away_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "score": {},
+          "position": 53
+        },
+        {
+          "fixture_id": 1635645,
+          "league_id": 2,
+          "event_date": "2026-10-22T02:00:00+07:00",
+          "event_timestamp": 1792609200,
+          "round": "League Stage - 3",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Jan Breydel Stadion, Brugge",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 3,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "away_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "score": {},
+          "position": 54
+        },
+        {
+          "fixture_id": 1635723,
+          "league_id": 2,
+          "event_date": "2026-11-04T00:45:00+07:00",
+          "event_timestamp": 1793727900,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stamford Bridge, London",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "away_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "score": {},
+          "position": 55
+        },
+        {
+          "fixture_id": 1635669,
+          "league_id": 2,
+          "event_date": "2026-11-04T00:45:00+07:00",
+          "event_timestamp": 1793727900,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Rams Park, Istanbul",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "away_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "score": {},
+          "position": 56
+        },
+        {
+          "fixture_id": 1635695,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Old Trafford, Manchester",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "away_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "score": {},
+          "position": 57
+        },
+        {
+          "fixture_id": 1635662,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "De Kuip, Rotterdam",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "away_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "score": {},
+          "position": 58
+        },
+        {
+          "fixture_id": 1635640,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Aspmyra Stadion",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "away_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "score": {},
+          "position": 59
+        },
+        {
+          "fixture_id": 1635627,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Camp Nou, Barcelona",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "away_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "score": {},
+          "position": 60
+        },
+        {
+          "fixture_id": 1635622,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Metropolitano Stadium, Madrid",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "away_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "score": {},
+          "position": 61
+        },
+        {
+          "fixture_id": 1635746,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de la Ceramica, Villarreal",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "away_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "score": {},
+          "position": 62
+        },
+        {
+          "fixture_id": 1635677,
+          "league_id": 2,
+          "event_date": "2026-11-04T03:00:00+07:00",
+          "event_timestamp": 1793736000,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Raiffeisen Arena, Linz",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "away_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "score": {},
+          "position": 63
+        },
+        {
+          "fixture_id": 1635606,
+          "league_id": 2,
+          "event_date": "2026-11-05T00:45:00+07:00",
+          "event_timestamp": 1793814300,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Allwyn Arena, Athens",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "away_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "score": {},
+          "position": 64
+        },
+        {
+          "fixture_id": 1635658,
+          "league_id": 2,
+          "event_date": "2026-11-05T00:45:00+07:00",
+          "event_timestamp": 1793814300,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Chobani Stadium Fenerbahce Sukru Saracoglu, Istanbul",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "away_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "score": {},
+          "position": 65
+        },
+        {
+          "fixture_id": 1635681,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Bollaert-Delelis, Lens",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "away_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "score": {},
+          "position": 66
+        },
+        {
+          "fixture_id": 1635651,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Signal Iduna Park, Dortmund",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "away_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "score": {},
+          "position": 67
+        },
+        {
+          "fixture_id": 1635710,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Red Bull Arena, Leipzig",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "away_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "score": {},
+          "position": 68
+        },
+        {
+          "fixture_id": 1635707,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Philips Stadion, Eindhoven",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "away_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "score": {},
+          "position": 69
+        },
+        {
+          "fixture_id": 1635656,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Porto",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "away_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "score": {},
+          "position": 70
+        },
+        {
+          "fixture_id": 1635726,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Fortuna Arena, Prague",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "away_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "score": {},
+          "position": 71
+        },
+        {
+          "fixture_id": 1635745,
+          "league_id": 2,
+          "event_date": "2026-11-05T03:00:00+07:00",
+          "event_timestamp": 1793822400,
+          "round": "League Stage - 4",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Lyse Arena, Stavanger",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 4,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "away_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "score": {},
+          "position": 72
+        },
+        {
+          "fixture_id": 1635641,
+          "league_id": 2,
+          "event_date": "2026-11-25T00:45:00+07:00",
+          "event_timestamp": 1795542300,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Aspmyra Stadion",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "away_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "score": {},
+          "position": 73
+        },
+        {
+          "fixture_id": 1635667,
+          "league_id": 2,
+          "event_date": "2026-11-25T00:45:00+07:00",
+          "event_timestamp": 1795542300,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Rams Park, Istanbul",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "away_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "score": {},
+          "position": 74
+        },
+        {
+          "fixture_id": 1635611,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Emirates Stadium, London",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "away_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "score": {},
+          "position": 75
+        },
+        {
+          "fixture_id": 1635692,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Etihad Stadium, Manchester",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "away_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "score": {},
+          "position": 76
+        },
+        {
+          "fixture_id": 1635713,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Red Bull Arena, Leipzig",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "away_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "score": {},
+          "position": 77
+        },
+        {
+          "fixture_id": 1635663,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "De Kuip, Rotterdam",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "away_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "score": {},
+          "position": 78
+        },
+        {
+          "fixture_id": 1635715,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Madrid",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "away_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "score": {},
+          "position": 79
+        },
+        {
+          "fixture_id": 1635731,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Bratislava",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "away_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "score": {},
+          "position": 80
+        },
+        {
+          "fixture_id": 1635649,
+          "league_id": 2,
+          "event_date": "2026-11-25T03:00:00+07:00",
+          "event_timestamp": 1795550400,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "away_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "score": {},
+          "position": 81
+        },
+        {
+          "fixture_id": 1635728,
+          "league_id": 2,
+          "event_date": "2026-11-26T00:45:00+07:00",
+          "event_timestamp": 1795628700,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Fortuna Arena, Prague",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "away_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "score": {},
+          "position": 82
+        },
+        {
+          "fixture_id": 1635718,
+          "league_id": 2,
+          "event_date": "2026-11-26T00:45:00+07:00",
+          "event_timestamp": 1795628700,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Bank Respublika Arena",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "away_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "score": {},
+          "position": 83
+        },
+        {
+          "fixture_id": 1635682,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Pierre-Mauroy",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "away_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "score": {},
+          "position": 84
+        },
+        {
+          "fixture_id": 1635703,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Parc des Princes, Paris",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "away_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "score": {},
+          "position": 85
+        },
+        {
+          "fixture_id": 1635735,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Lisbon",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "away_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "score": {},
+          "position": 86
+        },
+        {
+          "fixture_id": 1635673,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Milan",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "away_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "score": {},
+          "position": 87
+        },
+        {
+          "fixture_id": 1635625,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Metropolitano Stadium, Madrid",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "away_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "score": {},
+          "position": 88
+        },
+        {
+          "fixture_id": 1635724,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stamford Bridge, London",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "away_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "score": {},
+          "position": 89
+        },
+        {
+          "fixture_id": 1635642,
+          "league_id": 2,
+          "event_date": "2026-11-26T03:00:00+07:00",
+          "event_timestamp": 1795636800,
+          "round": "League Stage - 5",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Jan Breydel Stadion, Brugge",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 5,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "away_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "score": {},
+          "position": 90
+        },
+        {
+          "fixture_id": 1635749,
+          "league_id": 2,
+          "event_date": "2026-12-09T00:45:00+07:00",
+          "event_timestamp": 1796751900,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de la Ceramica, Villarreal",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "away_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "score": {},
+          "position": 91
+        },
+        {
+          "fixture_id": 1635744,
+          "league_id": 2,
+          "event_date": "2026-12-09T00:45:00+07:00",
+          "event_timestamp": 1796751900,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Lyse Arena, Stavanger",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "away_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "score": {},
+          "position": 92
+        },
+        {
+          "fixture_id": 1635696,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Old Trafford, Manchester",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "away_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "score": {},
+          "position": 93
+        },
+        {
+          "fixture_id": 1635618,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Villa Park, Birmingham",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "away_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "score": {},
+          "position": 94
+        },
+        {
+          "fixture_id": 1635633,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Allianz Arena, Munich",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "away_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "score": {},
+          "position": 95
+        },
+        {
+          "fixture_id": 1635699,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Diego Armando Maradona, Naples",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "away_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "score": {},
+          "position": 96
+        },
+        {
+          "fixture_id": 1635615,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Olimpico, Rome",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "away_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "score": {},
+          "position": 97
+        },
+        {
+          "fixture_id": 1635626,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Camp Nou, Barcelona",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "away_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "score": {},
+          "position": 98
+        },
+        {
+          "fixture_id": 1635608,
+          "league_id": 2,
+          "event_date": "2026-12-09T03:00:00+07:00",
+          "event_timestamp": 1796760000,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Allwyn Arena, Athens",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "away_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "score": {},
+          "position": 99
+        },
+        {
+          "fixture_id": 1635637,
+          "league_id": 2,
+          "event_date": "2026-12-10T00:45:00+07:00",
+          "event_timestamp": 1796838300,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de La Cartuja, Sevilla",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "away_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "score": {},
+          "position": 100
+        },
+        {
+          "fixture_id": 1635732,
+          "league_id": 2,
+          "event_date": "2026-12-10T00:45:00+07:00",
+          "event_timestamp": 1796838300,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Bratislava",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "away_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "score": {},
+          "position": 101
+        },
+        {
+          "fixture_id": 1635687,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Anfield, Liverpool",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "away_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "score": {},
+          "position": 102
+        },
+        {
+          "fixture_id": 1635610,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Emirates Stadium, London",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "away_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "score": {},
+          "position": 103
+        },
+        {
+          "fixture_id": 1635680,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Bollaert-Delelis, Lens",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "away_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "score": {},
+          "position": 104
+        },
+        {
+          "fixture_id": 1635650,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Signal Iduna Park, Dortmund",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "away_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "score": {},
+          "position": 105
+        },
+        {
+          "fixture_id": 1635740,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "MHPArena, Stuttgart",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "away_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "score": {},
+          "position": 106
+        },
+        {
+          "fixture_id": 1635706,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Philips Stadion, Eindhoven",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "away_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "score": {},
+          "position": 107
+        },
+        {
+          "fixture_id": 1635676,
+          "league_id": 2,
+          "event_date": "2026-12-10T03:00:00+07:00",
+          "event_timestamp": 1796846400,
+          "round": "League Stage - 6",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Raiffeisen Arena, Linz",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 6,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "away_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "score": {},
+          "position": 108
+        },
+        {
+          "fixture_id": 1635638,
+          "league_id": 2,
+          "event_date": "2027-01-20T00:45:00+07:00",
+          "event_timestamp": 1800380700,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Aspmyra Stadion",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "away_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "score": {},
+          "position": 109
+        },
+        {
+          "fixture_id": 1635668,
+          "league_id": 2,
+          "event_date": "2027-01-20T00:45:00+07:00",
+          "event_timestamp": 1800380700,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Rams Park, Istanbul",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "away_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "score": {},
+          "position": 110
+        },
+        {
+          "fixture_id": 1635619,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Villa Park, Birmingham",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "away_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "score": {},
+          "position": 111
+        },
+        {
+          "fixture_id": 1635685,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Pierre-Mauroy",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "away_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "score": {},
+          "position": 112
+        },
+        {
+          "fixture_id": 1635739,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "MHPArena, Stuttgart",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "away_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "score": {},
+          "position": 113
+        },
+        {
+          "fixture_id": 1635657,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Porto",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "away_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "score": {},
+          "position": 114
+        },
+        {
+          "fixture_id": 1635670,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Milan",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "away_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "score": {},
+          "position": 115
+        },
+        {
+          "fixture_id": 1635717,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Madrid",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "away_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "score": {},
+          "position": 116
+        },
+        {
+          "fixture_id": 1635607,
+          "league_id": 2,
+          "event_date": "2027-01-20T03:00:00+07:00",
+          "event_timestamp": 1800388800,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Allwyn Arena, Athens",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "away_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "score": {},
+          "position": 117
+        },
+        {
+          "fixture_id": 1635660,
+          "league_id": 2,
+          "event_date": "2027-01-21T00:45:00+07:00",
+          "event_timestamp": 1800467100,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Chobani Stadium Fenerbahce Sukru Saracoglu, Istanbul",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "away_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "score": {},
+          "position": 118
+        },
+        {
+          "fixture_id": 1635720,
+          "league_id": 2,
+          "event_date": "2027-01-21T00:45:00+07:00",
+          "event_timestamp": 1800467100,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Bank Respublika Arena",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "away_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "score": {},
+          "position": 119
+        },
+        {
+          "fixture_id": 1635694,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Old Trafford, Manchester",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "away_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "score": {},
+          "position": 120
+        },
+        {
+          "fixture_id": 1635678,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stade Bollaert-Delelis, Lens",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "away_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "score": {},
+          "position": 121
+        },
+        {
+          "fixture_id": 1635712,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Red Bull Arena, Leipzig",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "away_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "score": {},
+          "position": 122
+        },
+        {
+          "fixture_id": 1635734,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Lisbon",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "away_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "score": {},
+          "position": 123
+        },
+        {
+          "fixture_id": 1635634,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de La Cartuja, Sevilla",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "away_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "score": {},
+          "position": 124
+        },
+        {
+          "fixture_id": 1635743,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "MHPArena, Stuttgart",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "away_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "score": {},
+          "position": 125
+        },
+        {
+          "fixture_id": 1635646,
+          "league_id": 2,
+          "event_date": "2027-01-21T03:00:00+07:00",
+          "event_timestamp": 1800475200,
+          "round": "League Stage - 7",
+          "status": "Not Started",
+          "status_short": "NS",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 7,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "away_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "score": {},
+          "position": 126
+        },
+        {
+          "fixture_id": 1635689,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Anfield, Liverpool",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 40,
+            "team_name": "Liverpool",
+            "team_name_full": "Liverpool",
+            "logo": "https://is.vnecdn.net/objects/teams/40.png?v=1"
+          },
+          "away_team": {
+            "team_id": 116,
+            "team_name": "Lens",
+            "team_name_full": "Lens",
+            "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1"
+          },
+          "score": {},
+          "position": 127
+        },
+        {
+          "fixture_id": 1635613,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Emirates Stadium, London",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 42,
+            "team_name": "Arsenal",
+            "team_name_full": "Arsenal",
+            "logo": "https://is.vnecdn.net/objects/teams/42.png?v=1"
+          },
+          "away_team": {
+            "team_id": 13976,
+            "team_name": "Sabah FA",
+            "team_name_full": "Sabah FA",
+            "logo": "https://is.vnecdn.net/objects/teams/13976.png?v=1"
+          },
+          "score": {},
+          "position": 128
+        },
+        {
+          "fixture_id": 1635691,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Etihad Stadium, Manchester",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 50,
+            "team_name": "Man City",
+            "team_name_full": "Manchester City",
+            "logo": "https://is.vnecdn.net/objects/teams/50.png?v=1"
+          },
+          "away_team": {
+            "team_id": 228,
+            "team_name": "Sporting CP",
+            "team_name_full": "Sporting CP",
+            "logo": "https://is.vnecdn.net/objects/teams/228.png?v=1"
+          },
+          "score": {},
+          "position": 129
+        },
+        {
+          "fixture_id": 1635704,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Parc des Princes, Paris",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 85,
+            "team_name": "PSG",
+            "team_name_full": "Paris Saint Germain",
+            "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1"
+          },
+          "away_team": {
+            "team_id": 645,
+            "team_name": "Galatasaray",
+            "team_name_full": "Galatasaray",
+            "logo": "https://is.vnecdn.net/objects/teams/645.png?v=1"
+          },
+          "score": {},
+          "position": 130
+        },
+        {
+          "fixture_id": 1635631,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Allianz Arena, Munich",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 157,
+            "team_name": "Bayern",
+            "team_name_full": "Bayern München",
+            "logo": "https://is.vnecdn.net/objects/teams/157.png?v=1"
+          },
+          "away_team": {
+            "team_id": 543,
+            "team_name": "Real Betis",
+            "team_name_full": "Real Betis",
+            "logo": "https://is.vnecdn.net/objects/teams/543.png?v=1"
+          },
+          "score": {},
+          "position": 131
+        },
+        {
+          "fixture_id": 1635653,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Signal Iduna Park, Dortmund",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 165,
+            "team_name": "Dortmund",
+            "team_name_full": "Borussia Dortmund",
+            "logo": "https://is.vnecdn.net/objects/teams/165.png?v=1"
+          },
+          "away_team": {
+            "team_id": 575,
+            "team_name": "AEK Athens",
+            "team_name_full": "AEK Athens FC",
+            "logo": "https://is.vnecdn.net/objects/teams/575.png?v=1"
+          },
+          "score": {},
+          "position": 132
+        },
+        {
+          "fixture_id": 1635709,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Philips Stadion, Eindhoven",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 197,
+            "team_name": "PSV ",
+            "team_name_full": "PSV Eindhoven",
+            "logo": "https://is.vnecdn.net/objects/teams/197.png?v=1"
+          },
+          "away_team": {
+            "team_id": 172,
+            "team_name": "Stuttgart",
+            "team_name_full": "VfB Stuttgart",
+            "logo": "https://is.vnecdn.net/objects/teams/172.png?v=1"
+          },
+          "score": {},
+          "position": 133
+        },
+        {
+          "fixture_id": 1635664,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "De Kuip, Rotterdam",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 209,
+            "team_name": "Feyenoord",
+            "team_name_full": "Feyenoord",
+            "logo": "https://is.vnecdn.net/objects/teams/209.png?v=1"
+          },
+          "away_team": {
+            "team_id": 173,
+            "team_name": "RB Leipzig",
+            "team_name_full": "RB Leipzig",
+            "logo": "https://is.vnecdn.net/objects/teams/173.png?v=1"
+          },
+          "score": {},
+          "position": 134
+        },
+        {
+          "fixture_id": 1635701,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Diego Armando Maradona, Naples",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 492,
+            "team_name": "Napoli",
+            "team_name_full": "Napoli",
+            "logo": "https://is.vnecdn.net/objects/teams/492.png?v=1"
+          },
+          "away_team": {
+            "team_id": 759,
+            "team_name": "Viking",
+            "team_name_full": "Viking",
+            "logo": "https://is.vnecdn.net/objects/teams/759.png?v=1"
+          },
+          "score": {},
+          "position": 135
+        },
+        {
+          "fixture_id": 1635616,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stadio Olimpico, Rome",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 497,
+            "team_name": "AS Roma",
+            "team_name_full": "AS Roma",
+            "logo": "https://is.vnecdn.net/objects/teams/497.png?v=1"
+          },
+          "away_team": {
+            "team_id": 79,
+            "team_name": "Lille",
+            "team_name_full": "Lille",
+            "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1"
+          },
+          "score": {},
+          "position": 136
+        },
+        {
+          "fixture_id": 1635629,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Camp Nou, Barcelona",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 529,
+            "team_name": "Barca",
+            "team_name_full": "Barcelona",
+            "logo": "https://is.vnecdn.net/objects/teams/529.png?v=1"
+          },
+          "away_team": {
+            "team_id": 895,
+            "team_name": "Como",
+            "team_name_full": "Como",
+            "logo": "https://is.vnecdn.net/objects/teams/895.png?v=1"
+          },
+          "score": {},
+          "position": 137
+        },
+        {
+          "fixture_id": 1635624,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Metropolitano Stadium, Madrid",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 530,
+            "team_name": "Atletico ",
+            "team_name_full": "Atletico Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/530.png?v=1"
+          },
+          "away_team": {
+            "team_id": 611,
+            "team_name": "Fenerbahçe",
+            "team_name_full": "Fenerbahçe",
+            "logo": "https://is.vnecdn.net/objects/teams/611.png?v=1"
+          },
+          "score": {},
+          "position": 138
+        },
+        {
+          "fixture_id": 1635747,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Estadio de la Ceramica, Villarreal",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 533,
+            "team_name": "Villarreal",
+            "team_name_full": "Villarreal",
+            "logo": "https://is.vnecdn.net/objects/teams/533.png?v=1"
+          },
+          "away_team": {
+            "team_id": 33,
+            "team_name": "Man Utd",
+            "team_name_full": "Manchester United",
+            "logo": "https://is.vnecdn.net/objects/teams/33.png?v=1"
+          },
+          "score": {},
+          "position": 139
+        },
+        {
+          "fixture_id": 1635722,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Stamford Bridge, London",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 550,
+            "team_name": "Shakhtar",
+            "team_name_full": "Shakhtar Donetsk",
+            "logo": "https://is.vnecdn.net/objects/teams/550.png?v=1"
+          },
+          "away_team": {
+            "team_id": 541,
+            "team_name": "Real Madrid",
+            "team_name_full": "Real Madrid",
+            "logo": "https://is.vnecdn.net/objects/teams/541.png?v=1"
+          },
+          "score": {},
+          "position": 140
+        },
+        {
+          "fixture_id": 1635727,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Fortuna Arena, Prague",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 560,
+            "team_name": "Slavia Praha",
+            "team_name_full": "Slavia Praha",
+            "logo": "https://is.vnecdn.net/objects/teams/560.png?v=1"
+          },
+          "away_team": {
+            "team_id": 66,
+            "team_name": "Aston Villa",
+            "team_name_full": "Aston Villa",
+            "logo": "https://is.vnecdn.net/objects/teams/66.png?v=1"
+          },
+          "score": {},
+          "position": 141
+        },
+        {
+          "fixture_id": 1635644,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Jan Breydel Stadion, Brugge",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 569,
+            "team_name": "Club Brugge",
+            "team_name_full": "Club Brugge KV",
+            "logo": "https://is.vnecdn.net/objects/teams/569.png?v=1"
+          },
+          "away_team": {
+            "team_id": 327,
+            "team_name": "Bodo/Glimt",
+            "team_name_full": "Bodo/Glimt",
+            "logo": "https://is.vnecdn.net/objects/teams/327.png?v=1"
+          },
+          "score": {},
+          "position": 142
+        },
+        {
+          "fixture_id": 1635730,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": ", Bratislava",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 656,
+            "team_name": "Slovan Bratislava",
+            "team_name_full": "Slovan Bratislava",
+            "logo": "https://is.vnecdn.net/objects/teams/656.png?v=1"
+          },
+          "away_team": {
+            "team_id": 505,
+            "team_name": "Inter",
+            "team_name_full": "Inter",
+            "logo": "https://is.vnecdn.net/objects/teams/505.png?v=1"
+          },
+          "score": {},
+          "position": 143
+        },
+        {
+          "fixture_id": 1635675,
+          "league_id": 2,
+          "event_date": "2027-01-28T03:00:00+07:00",
+          "event_timestamp": 1801080000,
+          "round": "League Stage - 8",
+          "status": "Not Started",
+          "status_short": "NS",
+          "venue": "Raiffeisen Arena, Linz",
+          "goals_home_team": 0,
+          "goals_away_team": 0,
+          "round_int": 8,
+          "league": {
+            "name": "UEFA Champions League",
+            "country": "World",
+            "logo_original": "https://media.api-sports.io/football/leagues/2.png?v=1",
+            "logo": "https://is.vnecdn.net/objects/leagues/39.png?v=1"
+          },
+          "home_team": {
+            "team_id": 1026,
+            "team_name": "Lask Linz",
+            "team_name_full": "Lask Linz",
+            "logo": "https://is.vnecdn.net/objects/teams/1026.png?v=1"
+          },
+          "away_team": {
+            "team_id": 212,
+            "team_name": "FC Porto",
+            "team_name_full": "FC Porto",
+            "logo": "https://is.vnecdn.net/objects/teams/212.png?v=1"
+          },
+          "score": {},
+          "position": 144
+        }
+      ]
+    }
+  }
+}

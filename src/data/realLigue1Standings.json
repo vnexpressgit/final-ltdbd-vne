@@ -1,0 +1,434 @@
+[
+  {
+    "rank": 1,
+    "team": {
+      "id": 91,
+      "name": "Monaco",
+      "logo": "https://is.vnecdn.net/objects/teams/91.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 4,
+    "draw": 2,
+    "lose": 0,
+    "goalsFor": 10,
+    "goalsAgainst": 5,
+    "goalDifference": 5,
+    "points": 14,
+    "form": [
+      "D",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 79,
+      "name": "Lille",
+      "logo": "https://is.vnecdn.net/objects/teams/79.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 4,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 9,
+    "goalsAgainst": 4,
+    "goalDifference": 5,
+    "points": 13,
+    "form": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 94,
+      "name": "Rennes",
+      "logo": "https://is.vnecdn.net/objects/teams/94.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 4,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 12,
+    "goalsAgainst": 10,
+    "goalDifference": 2,
+    "points": 13,
+    "form": [
+      "W",
+      "L",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 80,
+      "name": "Lyon",
+      "logo": "https://is.vnecdn.net/objects/teams/80.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 2,
+    "lose": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 4,
+    "goalDifference": 7,
+    "points": 11,
+    "form": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 114,
+      "name": "Paris FC",
+      "logo": "https://is.vnecdn.net/objects/teams/114.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 2,
+    "lose": 1,
+    "goalsFor": 8,
+    "goalsAgainst": 4,
+    "goalDifference": 4,
+    "points": 11,
+    "form": [
+      "L",
+      "W",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 85,
+      "name": "PSG",
+      "logo": "https://is.vnecdn.net/objects/teams/85.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 3,
+    "draw": 2,
+    "lose": 1,
+    "goalsFor": 11,
+    "goalsAgainst": 8,
+    "goalDifference": 3,
+    "points": 11,
+    "form": [
+      "W",
+      "W",
+      "W",
+      "L",
+      "D"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 106,
+      "name": "Brest",
+      "logo": "https://is.vnecdn.net/objects/teams/106.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 2,
+    "lose": 2,
+    "goalsFor": 12,
+    "goalsAgainst": 9,
+    "goalDifference": 3,
+    "points": 8,
+    "form": [
+      "W",
+      "L",
+      "L",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 97,
+      "name": "Lorient",
+      "logo": "https://is.vnecdn.net/objects/teams/97.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 2,
+    "lose": 2,
+    "goalsFor": 6,
+    "goalsAgainst": 6,
+    "goalDifference": 0,
+    "points": 8,
+    "form": [
+      "W",
+      "L",
+      "D",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 84,
+      "name": "Nice",
+      "logo": "https://is.vnecdn.net/objects/teams/84.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 2,
+    "lose": 2,
+    "goalsFor": 5,
+    "goalsAgainst": 7,
+    "goalDifference": -2,
+    "points": 8,
+    "form": [
+      "W",
+      "W",
+      "L",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 116,
+      "name": "Lens",
+      "logo": "https://is.vnecdn.net/objects/teams/116.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 1,
+    "lose": 3,
+    "goalsFor": 11,
+    "goalsAgainst": 10,
+    "goalDifference": 1,
+    "points": 7,
+    "form": [
+      "W",
+      "L",
+      "D",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 95,
+      "name": "Strasbourg",
+      "logo": "https://is.vnecdn.net/objects/teams/95.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 1,
+    "lose": 3,
+    "goalsFor": 11,
+    "goalsAgainst": 12,
+    "goalDifference": -1,
+    "points": 7,
+    "form": [
+      "L",
+      "L",
+      "D",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 77,
+      "name": "Angers",
+      "logo": "https://is.vnecdn.net/objects/teams/77.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 1,
+    "lose": 3,
+    "goalsFor": 7,
+    "goalsAgainst": 10,
+    "goalDifference": -3,
+    "points": 7,
+    "form": [
+      "L",
+      "W",
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 81,
+      "name": "Marseille",
+      "logo": "https://is.vnecdn.net/objects/teams/81.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 0,
+    "lose": 4,
+    "goalsFor": 9,
+    "goalsAgainst": 8,
+    "goalDifference": 1,
+    "points": 6,
+    "form": [
+      "W",
+      "L",
+      "L",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 1298,
+      "name": "Le Mans",
+      "logo": "https://is.vnecdn.net/objects/teams/1298.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 3,
+    "lose": 2,
+    "goalsFor": 10,
+    "goalsAgainst": 12,
+    "goalDifference": -2,
+    "points": 6,
+    "form": [
+      "L",
+      "W",
+      "D",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 15,
+    "team": {
+      "id": 96,
+      "name": "Toulouse",
+      "logo": "https://is.vnecdn.net/objects/teams/96.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 3,
+    "lose": 2,
+    "goalsFor": 9,
+    "goalsAgainst": 11,
+    "goalDifference": -2,
+    "points": 6,
+    "form": [
+      "D",
+      "W",
+      "D",
+      "L",
+      "D"
+    ]
+  },
+  {
+    "rank": 16,
+    "team": {
+      "id": 108,
+      "name": "Auxerre",
+      "logo": "https://is.vnecdn.net/objects/teams/108.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 2,
+    "draw": 0,
+    "lose": 4,
+    "goalsFor": 8,
+    "goalsAgainst": 16,
+    "goalDifference": -8,
+    "points": 6,
+    "form": [
+      "L",
+      "W",
+      "W",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 17,
+    "team": {
+      "id": 110,
+      "name": "Estac Troyes",
+      "logo": "https://is.vnecdn.net/objects/teams/110.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 1,
+    "draw": 1,
+    "lose": 4,
+    "goalsFor": 4,
+    "goalsAgainst": 13,
+    "goalDifference": -9,
+    "points": 4,
+    "form": [
+      "L",
+      "L",
+      "L",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 18,
+    "team": {
+      "id": 111,
+      "name": "Le Havre",
+      "logo": "https://is.vnecdn.net/objects/teams/111.png?v=1",
+      "winner": null
+    },
+    "played": 6,
+    "win": 0,
+    "draw": 2,
+    "lose": 4,
+    "goalsFor": 4,
+    "goalsAgainst": 8,
+    "goalDifference": -4,
+    "points": 2,
+    "form": [
+      "L",
+      "L",
+      "D",
+      "L",
+      "D"
+    ]
+  }
+]

@@ -1,0 +1,7100 @@
+[
+  {
+    "fixture": {
+      "id": 1619917,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-04T18:00:00+07:00",
+      "timestamp": 1788519600,
+      "periods": {
+        "first": 1788519600,
+        "second": 1788523200
+      },
+      "venue": {
+        "id": null,
+        "name": "Binh Phuoc Stadium",
+        "city": "Dong Xoai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1619912,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-05T18:00:00+07:00",
+      "timestamp": 1788606000,
+      "periods": {
+        "first": 1788606000,
+        "second": 1788609600
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1619913,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-05T18:00:00+07:00",
+      "timestamp": 1788606000,
+      "periods": {
+        "first": 1788606000,
+        "second": 1788609600
+      },
+      "venue": {
+        "id": null,
+        "name": "Go Dau Stadium",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1619911,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-05T19:15:00+07:00",
+      "timestamp": 1788610500,
+      "periods": {
+        "first": 1788610500,
+        "second": 1788614100
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1619916,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-06T17:00:00+07:00",
+      "timestamp": 1788688800,
+      "periods": {
+        "first": 1788688800,
+        "second": 1788692400
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1619914,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-06T18:00:00+07:00",
+      "timestamp": 1788692400,
+      "periods": {
+        "first": 1788692400,
+        "second": 1788696000
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1619915,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-06T18:00:00+07:00",
+      "timestamp": 1788692400,
+      "periods": {
+        "first": 1788692400,
+        "second": 1788696000
+      },
+      "venue": {
+        "id": null,
+        "name": "Vinh Stadium",
+        "city": "Vinh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 1",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633893,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-10T19:15:00+07:00",
+      "timestamp": 1789042500,
+      "periods": {
+        "first": 1789042500,
+        "second": 1789046100
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633894,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-11T18:00:00+07:00",
+      "timestamp": 1789124400,
+      "periods": {
+        "first": 1789124400,
+        "second": 1789128000
+      },
+      "venue": {
+        "id": null,
+        "name": "Viet Yen Stadium",
+        "city": "Viet Yen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633895,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-11T18:00:00+07:00",
+      "timestamp": 1789124400,
+      "periods": {
+        "first": 1789124400,
+        "second": 1789128000
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hòa Xuân, Đà Nẵng",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633896,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-11T18:00:00+07:00",
+      "timestamp": 1789124400,
+      "periods": {
+        "first": 1789124400,
+        "second": 1789128000
+      },
+      "venue": {
+        "id": null,
+        "name": "Ninh Binh Stadium",
+        "city": "Ninh Binh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633897,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-12T19:15:00+07:00",
+      "timestamp": 1789215300,
+      "periods": {
+        "first": 1789215300,
+        "second": 1789218900
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633898,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-13T17:00:00+07:00",
+      "timestamp": 1789293600,
+      "periods": {
+        "first": 1789293600,
+        "second": 1789297200
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633899,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-13T18:00:00+07:00",
+      "timestamp": 1789297200,
+      "periods": {
+        "first": 1789297200,
+        "second": 1789300800
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 2",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633900,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-09-20T18:00:00+07:00",
+      "timestamp": 1789902000,
+      "periods": {
+        "first": 1789902000,
+        "second": 1789905600
+      },
+      "venue": {
+        "id": null,
+        "name": "Binh Phuoc Stadium",
+        "city": "Dong Xoai"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633901,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-08T19:15:00+07:00",
+      "timestamp": 1791461700,
+      "periods": {
+        "first": 1791461700,
+        "second": 1791465300
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633902,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-10T17:00:00+07:00",
+      "timestamp": 1791626400,
+      "periods": {
+        "first": 1791626400,
+        "second": 1791630000
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633903,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-10T18:00:00+07:00",
+      "timestamp": 1791630000,
+      "periods": {
+        "first": 1791630000,
+        "second": 1791633600
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": false
+      },
+      "away": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633904,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-10T18:00:00+07:00",
+      "timestamp": 1791630000,
+      "periods": {
+        "first": 1791630000,
+        "second": 1791633600
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633905,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-11T18:00:00+07:00",
+      "timestamp": 1791716400,
+      "periods": {
+        "first": 1791716400,
+        "second": 1791720000
+      },
+      "venue": {
+        "id": null,
+        "name": "Vinh Stadium",
+        "city": "Vinh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633906,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-11T19:15:00+07:00",
+      "timestamp": 1791720900,
+      "periods": {
+        "first": 1791720900,
+        "second": 1791724500
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 3",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": true
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": false,
+    "has_recap": true,
+    "has_highlight": true
+  },
+  {
+    "fixture": {
+      "id": 1633907,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-17T17:00:00+07:00",
+      "timestamp": 1792231200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633908,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-17T18:00:00+07:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hòa Xuân, Đà Nẵng",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633909,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-17T18:00:00+07:00",
+      "timestamp": 1792234800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633910,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-18T18:00:00+07:00",
+      "timestamp": 1792321200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Việt Yên / Từ Sơn",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633911,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-18T18:00:00+07:00",
+      "timestamp": 1792321200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Ninh Binh Stadium",
+        "city": "Ninh Binh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633912,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-18T19:15:00+07:00",
+      "timestamp": 1792325700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633913,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-19T18:00:00+07:00",
+      "timestamp": 1792407600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thống Nhất, TP.HCM",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 4",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633914,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-22T19:15:00+07:00",
+      "timestamp": 1792671300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633915,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-23T17:00:00+07:00",
+      "timestamp": 1792749600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633916,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-23T19:15:00+07:00",
+      "timestamp": 1792757700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633917,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-24T18:00:00+07:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633918,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-24T18:00:00+07:00",
+      "timestamp": 1792839600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Bình Phước, Đồng Xoài",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633919,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-25T18:00:00+07:00",
+      "timestamp": 1792926000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hòa Xuân, Đà Nẵng",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633920,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-25T18:00:00+07:00",
+      "timestamp": 1792926000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Ninh Binh Stadium",
+        "city": "Ninh Binh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 5",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633921,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-30T17:00:00+07:00",
+      "timestamp": 1793354400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633922,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-30T18:00:00+07:00",
+      "timestamp": 1793358000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Việt Yên / Từ Sơn",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633923,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-31T18:00:00+07:00",
+      "timestamp": 1793444400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633924,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-31T18:00:00+07:00",
+      "timestamp": 1793444400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633925,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-10-31T18:00:00+07:00",
+      "timestamp": 1793444400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Vinh Stadium",
+        "city": "Vinh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633926,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-01T18:00:00+07:00",
+      "timestamp": 1793530800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thống Nhất, TP.HCM",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633927,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-01T19:15:00+07:00",
+      "timestamp": 1793535300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 6",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633928,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-06T18:00:00+07:00",
+      "timestamp": 1793962800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633929,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-06T18:00:00+07:00",
+      "timestamp": 1793962800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Bình Phước, Đồng Xoài",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633930,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-07T18:00:00+07:00",
+      "timestamp": 1794049200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633931,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-07T18:00:00+07:00",
+      "timestamp": 1794049200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Ninh Binh Stadium",
+        "city": "Ninh Binh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633932,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-07T19:15:00+07:00",
+      "timestamp": 1794053700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633933,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-08T17:00:00+07:00",
+      "timestamp": 1794132000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633934,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-08T19:15:00+07:00",
+      "timestamp": 1794140100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 7",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633935,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-20T17:00:00+07:00",
+      "timestamp": 1795168800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633936,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-20T19:15:00+07:00",
+      "timestamp": 1795176900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633937,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-21T18:00:00+07:00",
+      "timestamp": 1795258800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633938,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-21T18:00:00+07:00",
+      "timestamp": 1795258800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Bình Phước, Đồng Xoài",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633939,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-22T18:00:00+07:00",
+      "timestamp": 1795345200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hòa Xuân, Đà Nẵng",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633940,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-22T18:00:00+07:00",
+      "timestamp": 1795345200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633942,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-27T18:00:00+07:00",
+      "timestamp": 1795777200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633943,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-27T18:00:00+07:00",
+      "timestamp": 1795777200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Vinh Stadium",
+        "city": "Vinh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633944,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-28T18:00:00+07:00",
+      "timestamp": 1795863600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Việt Yên / Từ Sơn",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633945,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-28T18:00:00+07:00",
+      "timestamp": 1795863600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thống Nhất, TP.HCM",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633946,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-28T19:15:00+07:00",
+      "timestamp": 1795868100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633947,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-29T17:00:00+07:00",
+      "timestamp": 1795946400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633948,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-11-29T18:00:00+07:00",
+      "timestamp": 1795950000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 9",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633949,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-04T18:00:00+07:00",
+      "timestamp": 1796382000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thống Nhất, TP.HCM",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633950,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-05T17:00:00+07:00",
+      "timestamp": 1796464800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633951,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-05T18:00:00+07:00",
+      "timestamp": 1796468400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Việt Yên / Từ Sơn",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633952,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-06T18:00:00+07:00",
+      "timestamp": 1796554800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Ninh Binh Stadium",
+        "city": "Ninh Binh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633953,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-06T18:00:00+07:00",
+      "timestamp": 1796554800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Vinh Stadium",
+        "city": "Vinh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633954,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-06T19:15:00+07:00",
+      "timestamp": 1796559300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633955,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-07T18:00:00+07:00",
+      "timestamp": 1796641200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hòa Xuân, Đà Nẵng",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 10",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633956,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-11T18:00:00+07:00",
+      "timestamp": 1796986800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633957,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-11T19:15:00+07:00",
+      "timestamp": 1796991300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633958,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-12T18:00:00+07:00",
+      "timestamp": 1797073200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633959,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-12T18:00:00+07:00",
+      "timestamp": 1797073200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633960,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-12T18:00:00+07:00",
+      "timestamp": 1797073200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Bình Phước, Đồng Xoài",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633961,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-13T17:00:00+07:00",
+      "timestamp": 1797156000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633962,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-13T19:15:00+07:00",
+      "timestamp": 1797164100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 11",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633963,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-16T18:00:00+07:00",
+      "timestamp": 1797418800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thiên Trường, Nam Định",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633964,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-16T18:00:00+07:00",
+      "timestamp": 1797418800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Vinh Stadium",
+        "city": "Vinh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633965,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-17T17:00:00+07:00",
+      "timestamp": 1797501600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thanh Hóa",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633966,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-17T18:00:00+07:00",
+      "timestamp": 1797505200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hà Tĩnh",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633967,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-17T19:15:00+07:00",
+      "timestamp": 1797509700,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633968,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-18T19:15:00+07:00",
+      "timestamp": 1797596100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633970,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-20T18:00:00+07:00",
+      "timestamp": 1797764400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Bình Phước, Đồng Xoài",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3678,
+        "name": "Sông Lam Nghệ An",
+        "shortName": "SLNA",
+        "logo": "https://is.vnecdn.net/objects/teams/3678.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633971,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-21T18:00:00+07:00",
+      "timestamp": 1797850800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Việt Yên / Từ Sơn",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3680,
+        "name": "Đông Á Thanh Hóa",
+        "shortName": "Thanh Hóa",
+        "logo": "https://is.vnecdn.net/objects/teams/3680.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633972,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-21T18:00:00+07:00",
+      "timestamp": 1797850800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Hòa Xuân, Đà Nẵng",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3669,
+        "name": "SHB Đà Nẵng",
+        "shortName": "Đà Nẵng",
+        "logo": "https://is.vnecdn.net/objects/teams/3669.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633973,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-21T18:00:00+07:00",
+      "timestamp": 1797850800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "",
+        "city": "Haiphong"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3671,
+        "name": "Hải Phòng FC",
+        "shortName": "Hải Phòng",
+        "logo": "https://is.vnecdn.net/objects/teams/3671.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633974,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-21T19:15:00+07:00",
+      "timestamp": 1797855300,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3670,
+        "name": "Hà Nội FC",
+        "shortName": "Hà Nội FC",
+        "logo": "https://is.vnecdn.net/objects/teams/3670.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3674,
+        "name": "Thép Xanh Nam Định",
+        "shortName": "Nam Định",
+        "logo": "https://is.vnecdn.net/objects/teams/3674.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633975,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-22T17:00:00+07:00",
+      "timestamp": 1797933600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Pleiku Stadium",
+        "city": "Pleiku"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3673,
+        "name": "Hoàng Anh Gia Lai",
+        "shortName": "HAGL",
+        "logo": "https://is.vnecdn.net/objects/teams/3673.jpg?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 11134,
+        "name": "Hồng Lĩnh Hà Tĩnh",
+        "shortName": "Hà Tĩnh",
+        "logo": "https://is.vnecdn.net/objects/teams/11134.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633976,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-22T18:00:00+07:00",
+      "timestamp": 1797937200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Ninh Binh Stadium",
+        "city": "Ninh Binh"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 13",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 9167,
+        "name": "Phù Đổng Ninh Bình",
+        "shortName": "Ninh Bình",
+        "logo": "https://is.vnecdn.net/objects/teams/9167.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 3681,
+        "name": "Thể Công - Viettel",
+        "shortName": "Thể Công Viettel",
+        "logo": "https://is.vnecdn.net/objects/teams/3681.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633969,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-25T18:00:00+07:00",
+      "timestamp": 1798196400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "SVĐ Thống Nhất, TP.HCM",
+        "city": "Việt Nam"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 12",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 3672,
+        "name": "Công An TP. Hồ Chí Minh",
+        "shortName": "CA TP.HCM",
+        "logo": "https://is.vnecdn.net/objects/teams/3672.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 9161,
+        "name": "Trường Tươi Bình Phước",
+        "shortName": "Bình Phước",
+        "logo": "https://is.vnecdn.net/objects/teams/9161.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": false,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  },
+  {
+    "fixture": {
+      "id": 1633941,
+      "referee": null,
+      "timezone": "Asia/Ho_Chi_Minh",
+      "date": "2026-12-25T19:15:00+07:00",
+      "timestamp": 1798200900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Hang Day Stadium",
+        "city": "Hanoi"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 340,
+      "name": "V.League 1",
+      "country": "Việt Nam",
+      "logo": "https://is.vnecdn.net/objects/leagues/340.png?v=1",
+      "flag": "https://is.vnecdn.net/objects/flags/vn.svg?v=1",
+      "season": 2026,
+      "round": "Vòng 8",
+      "standings": true,
+      "tier": 1,
+      "vietnameseName": "V-League 1"
+    },
+    "teams": {
+      "home": {
+        "id": 16400,
+        "name": "Công An Hà Nội",
+        "shortName": "CAHN",
+        "logo": "https://is.vnecdn.net/objects/teams/16400.png?v=1",
+        "winner": null
+      },
+      "away": {
+        "id": 26601,
+        "name": "Bắc Ninh FC",
+        "shortName": "Bắc Ninh",
+        "logo": "https://is.vnecdn.net/objects/teams/26601.png?v=1",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "is_hot": true,
+    "has_preview": true,
+    "has_recap": false,
+    "has_highlight": false
+  }
+]

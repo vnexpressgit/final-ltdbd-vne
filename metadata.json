@@ -1,0 +1,8 @@
+{
+  "name": "Chốt Lịch Thi Đấu \u0026 Kết Quả Bóng Đá VnExpress",
+  "description": "Chuyên trang Lịch thi đấu và Kết quả bóng đá hôm nay, tối nay, đêm qua trực tiếp trên VnExpress. Cập nhật tỷ số, kênh phát sóng K+, VTV, FPT Play, video highlight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

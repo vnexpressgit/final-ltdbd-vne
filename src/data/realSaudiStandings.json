@@ -1,0 +1,434 @@
+[
+  {
+    "rank": 1,
+    "team": {
+      "id": 2932,
+      "name": "Al-Hilal Saudi FC",
+      "logo": "https://is.vnecdn.net/objects/teams/2932.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 7,
+    "draw": 0,
+    "lose": 1,
+    "goalsFor": 26,
+    "goalsAgainst": 7,
+    "goalDifference": 19,
+    "points": 21,
+    "form": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 2,
+    "team": {
+      "id": 2933,
+      "name": "Al-Qadisiyah FC",
+      "logo": "https://is.vnecdn.net/objects/teams/2933.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 6,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 21,
+    "goalsAgainst": 8,
+    "goalDifference": 13,
+    "points": 19,
+    "form": [
+      "W",
+      "D",
+      "W",
+      "W",
+      "W"
+    ]
+  },
+  {
+    "rank": 3,
+    "team": {
+      "id": 2939,
+      "name": "Al-Nassr",
+      "logo": "https://is.vnecdn.net/objects/teams/2939.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 6,
+    "draw": 1,
+    "lose": 1,
+    "goalsFor": 19,
+    "goalsAgainst": 7,
+    "goalDifference": 12,
+    "points": 19,
+    "form": [
+      "W",
+      "D",
+      "W",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 4,
+    "team": {
+      "id": 2938,
+      "name": "Al-Ittihad FC",
+      "logo": "https://is.vnecdn.net/objects/teams/2938.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 5,
+    "draw": 2,
+    "lose": 1,
+    "goalsFor": 14,
+    "goalsAgainst": 9,
+    "goalDifference": 5,
+    "points": 17,
+    "form": [
+      "L",
+      "W",
+      "W",
+      "W",
+      "D"
+    ]
+  },
+  {
+    "rank": 5,
+    "team": {
+      "id": 10513,
+      "name": "NEOM",
+      "logo": "https://is.vnecdn.net/objects/teams/10513.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 5,
+    "draw": 1,
+    "lose": 2,
+    "goalsFor": 14,
+    "goalsAgainst": 7,
+    "goalDifference": 7,
+    "points": 16,
+    "form": [
+      "D",
+      "W",
+      "W",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 6,
+    "team": {
+      "id": 2929,
+      "name": "Al-Ahli Jeddah",
+      "logo": "https://is.vnecdn.net/objects/teams/2929.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 5,
+    "draw": 0,
+    "lose": 3,
+    "goalsFor": 20,
+    "goalsAgainst": 10,
+    "goalDifference": 10,
+    "points": 15,
+    "form": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 7,
+    "team": {
+      "id": 2934,
+      "name": "Al-Ettifaq",
+      "logo": "https://is.vnecdn.net/objects/teams/2934.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 3,
+    "draw": 3,
+    "lose": 2,
+    "goalsFor": 12,
+    "goalsAgainst": 12,
+    "goalDifference": 0,
+    "points": 12,
+    "form": [
+      "D",
+      "D",
+      "D",
+      "W",
+      "L"
+    ]
+  },
+  {
+    "rank": 8,
+    "team": {
+      "id": 10509,
+      "name": "Al Kholood",
+      "logo": "https://is.vnecdn.net/objects/teams/10509.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 3,
+    "draw": 3,
+    "lose": 2,
+    "goalsFor": 12,
+    "goalsAgainst": 15,
+    "goalDifference": -3,
+    "points": 12,
+    "form": [
+      "L",
+      "L",
+      "W",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 9,
+    "team": {
+      "id": 26738,
+      "name": "Al Diriyah",
+      "logo": "https://is.vnecdn.net/objects/teams/26738.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 3,
+    "draw": 2,
+    "lose": 3,
+    "goalsFor": 7,
+    "goalsAgainst": 8,
+    "goalDifference": -1,
+    "points": 11,
+    "form": [
+      "L",
+      "D",
+      "W",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 10,
+    "team": {
+      "id": 2945,
+      "name": "Al-Hazm",
+      "logo": "https://is.vnecdn.net/objects/teams/2945.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 2,
+    "draw": 3,
+    "lose": 3,
+    "goalsFor": 8,
+    "goalsAgainst": 10,
+    "goalDifference": -2,
+    "points": 9,
+    "form": [
+      "D",
+      "L",
+      "W",
+      "D",
+      "D"
+    ]
+  },
+  {
+    "rank": 11,
+    "team": {
+      "id": 10511,
+      "name": "Al Riyadh",
+      "logo": "https://is.vnecdn.net/objects/teams/10511.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 2,
+    "draw": 3,
+    "lose": 3,
+    "goalsFor": 9,
+    "goalsAgainst": 17,
+    "goalDifference": -8,
+    "points": 9,
+    "form": [
+      "D",
+      "W",
+      "D",
+      "L",
+      "W"
+    ]
+  },
+  {
+    "rank": 12,
+    "team": {
+      "id": 2940,
+      "name": "Al Shabab",
+      "logo": "https://is.vnecdn.net/objects/teams/2940.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 1,
+    "draw": 4,
+    "lose": 3,
+    "goalsFor": 9,
+    "goalsAgainst": 11,
+    "goalDifference": -2,
+    "points": 7,
+    "form": [
+      "W",
+      "D",
+      "L",
+      "L",
+      "D"
+    ]
+  },
+  {
+    "rank": 13,
+    "team": {
+      "id": 2944,
+      "name": "Al-Fayha",
+      "logo": "https://is.vnecdn.net/objects/teams/2944.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 1,
+    "draw": 4,
+    "lose": 3,
+    "goalsFor": 8,
+    "goalsAgainst": 12,
+    "goalDifference": -4,
+    "points": 7,
+    "form": [
+      "D",
+      "D",
+      "L",
+      "D",
+      "W"
+    ]
+  },
+  {
+    "rank": 14,
+    "team": {
+      "id": 2928,
+      "name": "Al Khaleej Saihat",
+      "logo": "https://is.vnecdn.net/objects/teams/2928.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 0,
+    "draw": 6,
+    "lose": 2,
+    "goalsFor": 4,
+    "goalsAgainst": 11,
+    "goalDifference": -7,
+    "points": 6,
+    "form": [
+      "D",
+      "D",
+      "D",
+      "L",
+      "L"
+    ]
+  },
+  {
+    "rank": 15,
+    "team": {
+      "id": 2930,
+      "name": "Al-Faisaly FC",
+      "logo": "https://is.vnecdn.net/objects/teams/2930.png?v=1",
+      "winner": null
+    },
+    "played": 7,
+    "win": 0,
+    "draw": 3,
+    "lose": 4,
+    "goalsFor": 5,
+    "goalsAgainst": 13,
+    "goalDifference": -8,
+    "points": 3,
+    "form": [
+      "L",
+      "D",
+      "D",
+      "L",
+      "D"
+    ]
+  },
+  {
+    "rank": 16,
+    "team": {
+      "id": 2931,
+      "name": "Al-Fateh",
+      "logo": "https://is.vnecdn.net/objects/teams/2931.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 0,
+    "draw": 3,
+    "lose": 5,
+    "goalsFor": 4,
+    "goalsAgainst": 15,
+    "goalDifference": -11,
+    "points": 3,
+    "form": [
+      "L",
+      "L",
+      "L",
+      "D",
+      "D"
+    ]
+  },
+  {
+    "rank": 17,
+    "team": {
+      "id": 2936,
+      "name": "Al Taawon",
+      "logo": "https://is.vnecdn.net/objects/teams/2936.png?v=1",
+      "winner": null
+    },
+    "played": 8,
+    "win": 0,
+    "draw": 3,
+    "lose": 5,
+    "goalsFor": 3,
+    "goalsAgainst": 15,
+    "goalDifference": -12,
+    "points": 3,
+    "form": [
+      "L",
+      "L",
+      "L",
+      "D",
+      "L"
+    ]
+  },
+  {
+    "rank": 18,
+    "team": {
+      "id": 2951,
+      "name": "Abha",
+      "logo": "https://is.vnecdn.net/objects/teams/2951.png?v=1",
+      "winner": null
+    },
+    "played": 7,
+    "win": 0,
+    "draw": 2,
+    "lose": 5,
+    "goalsFor": 5,
+    "goalsAgainst": 13,
+    "goalDifference": -8,
+    "points": 2,
+    "form": [
+      "D",
+      "L",
+      "L",
+      "L",
+      "D"
+    ]
+  }
+]
