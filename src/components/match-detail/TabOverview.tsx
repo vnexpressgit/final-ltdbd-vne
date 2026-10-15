@@ -853,8 +853,6 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
                 </div>
                 
                 <div className="flex items-center gap-2 text-[10px] text-gray-400 mb-1">
-                  <span className="text-[#9f224e] font-bold uppercase">{article.category || 'Tin tức'}</span>
-                  <span>•</span>
                   <span>{article.publishedAt}</span>
                 </div>
 
@@ -867,8 +865,7 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
                 </p>
               </div>
 
-              <div className="mt-3 pt-2 border-t border-gray-100 flex items-center justify-between text-[11px] text-gray-400">
-                <span>{article.author || 'VnExpress'}</span>
+              <div className="mt-3 pt-2 border-t border-gray-100 flex items-center justify-end text-[11px] text-gray-400">
                 <span className="font-semibold text-[#9f224e] flex items-center gap-0.5 group-hover:translate-x-0.5 transition">
                   Đọc tiếp →
                 </span>

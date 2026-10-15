@@ -55,8 +55,6 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
 
               <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-gray-700">{news[0].author || 'Ban Thể Thao'}</span>
-                  <span>•</span>
                   <span>{news[0].publishedAt}</span>
                 </div>
                 {news[0].commentCount && (
@@ -89,9 +87,6 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
               </div>
 
               <div className="p-4">
-                <span className="text-[10px] font-bold text-[#9f224e] uppercase tracking-wider block mb-1.5">
-                  {item.category}
-                </span>
                 <h3 className="text-sm font-bold text-gray-900 group-hover:text-[#9f224e] transition line-clamp-2 leading-snug">
                   {item.title}
                 </h3>
@@ -102,7 +97,7 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
             </div>
 
             <div className="px-4 pb-4 pt-2 flex items-center justify-between text-xs text-gray-400 border-t border-gray-50">
-              <span className="text-[11px] truncate">{item.author || 'VnExpress'} · {item.publishedAt}</span>
+              <span className="text-[11px] truncate">{item.publishedAt}</span>
               {item.commentCount && (
                 <span className="flex items-center gap-1 text-gray-400 text-[11px]">
                   <MessageSquare className="w-3 h-3" />
@@ -128,7 +123,7 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
             <div className="p-4 sm:p-5 border-b border-gray-100 flex items-center justify-between sticky top-0 bg-white/95 backdrop-blur-xs z-10">
               <div className="flex items-center gap-2 text-xs font-bold text-[#9f224e] uppercase">
                 <Newspaper className="w-4 h-4" />
-                <span>{readingArticle.category} · VnExpress Thể Thao</span>
+                <span>VnExpress Thể Thao</span>
               </div>
               <button
                 onClick={() => setReadingArticle(null)}
@@ -145,7 +140,6 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
               </h2>
 
               <div className="flex items-center justify-between text-xs text-gray-500 pb-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-700">{readingArticle.author || 'Quang Dũng'}</span>
                 <span>{readingArticle.publishedAt} (GMT+7)</span>
               </div>
 

@@ -689,16 +689,8 @@ export const TeamDashboard: React.FC<TeamDashboardProps> = ({
                         />
                       </div>
                       <div className="space-y-1.5 flex-1 min-w-0">
-                        <div className="flex items-center gap-2 text-[11px]">
-                          <span className="text-[#9f224e] font-bold uppercase">{art.category}</span>
-                          <span className="text-gray-300">•</span>
-                          <span className="text-gray-500">{art.publishedAt}</span>
-                          {art.author && (
-                            <>
-                              <span className="text-gray-300">•</span>
-                              <span className="text-gray-500">{art.author}</span>
-                            </>
-                          )}
+                        <div className="flex items-center gap-2 text-[11px] text-gray-500">
+                          <span>{art.publishedAt}</span>
                         </div>
                         <h4 className="font-bold text-sm sm:text-base text-gray-950 group-hover:text-[#9f224e] transition line-clamp-2 leading-snug">
                           {art.title}

@@ -88,20 +88,10 @@ export const LeagueNewsSection: React.FC<LeagueNewsSectionProps> = ({
 
               <div className="flex-1 space-y-1.5">
                 <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                  <span className="text-[#9f224e] font-bold uppercase tracking-wider">
-                    {leadStory.category}
-                  </span>
-                  <span>•</span>
                   <span className="flex items-center gap-1">
                     <Clock className="w-3 h-3" />
                     {leadStory.publishedAt}
                   </span>
-                  {leadStory.author && (
-                    <>
-                      <span>•</span>
-                      <span className="text-[#38404D] font-medium">Bởi {leadStory.author}</span>
-                    </>
-                  )}
                 </div>
 
                 <h3 className="font-serif-vne text-base sm:text-lg font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug">
@@ -148,8 +138,7 @@ export const LeagueNewsSection: React.FC<LeagueNewsSectionProps> = ({
               {/* Text Info */}
               <div className="flex-1 min-w-0 space-y-1">
                 <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                  <span className="text-[#9f224e] font-semibold">{article.category}</span>
-                  <span>•</span>
+                  <Clock className="w-3 h-3 text-[#757575]" />
                   <span>{article.publishedAt}</span>
                 </div>
 
@@ -162,10 +151,9 @@ export const LeagueNewsSection: React.FC<LeagueNewsSectionProps> = ({
                 </p>
 
                 <div className="flex items-center gap-3 pt-0.5 text-[10px] text-[#757575] font-bai">
-                  {article.author && <span>{article.author}</span>}
                   <span className="flex items-center gap-1">
                     <MessageSquare className="w-2.5 h-2.5" />
-                    <span>{article.commentCount}</span>
+                    <span>{article.commentCount} bình luận</span>
                   </span>
                 </div>
               </div>

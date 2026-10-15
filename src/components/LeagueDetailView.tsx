@@ -7,7 +7,6 @@ import {
   ChevronRight, 
   MessageSquare, 
   Flame, 
-  ArrowRight,
   TrendingUp,
   BarChart2,
   Tv,
@@ -408,21 +407,12 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         loading="lazy"
                       />
-                      <span className="absolute top-2 left-2 bg-[#9f224e] text-white text-[10px] font-bold px-2 py-0.5 rounded shadow-sm font-bai">
-                        {leadArticle.category || 'CHIẾN THUẬT'}
-                      </span>
                     </div>
 
                     <div className="space-y-1">
                       <div className="flex items-center gap-1.5 text-[11px] text-[#757575]">
                         <Clock className="w-3 h-3 text-[#757575]" />
                         <span>{leadArticle.publishedAt}</span>
-                        {leadArticle.author && (
-                          <>
-                            <span>•</span>
-                            <span className="font-medium text-[#38404D]">Tác giả: {leadArticle.author}</span>
-                          </>
-                        )}
                       </div>
 
                       <h3 className="font-serif-vne text-base sm:text-lg font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug">
@@ -433,14 +423,10 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                         {leadArticle.summary}
                       </p>
 
-                      <div className="pt-1 flex items-center justify-between text-xs font-bai">
-                        <span className="text-[#9f224e] font-bold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                          <span>Xem phân tích</span>
-                          <ArrowRight className="w-3.5 h-3.5" />
-                        </span>
+                      <div className="pt-1 flex items-center justify-end text-xs font-bai">
                         <span className="text-[#757575] flex items-center gap-1 text-[11px]">
                           <MessageSquare className="w-3 h-3" />
-                          <span>{leadArticle.commentCount || 42}</span>
+                          <span>{leadArticle.commentCount || 42} bình luận</span>
                         </span>
                       </div>
                     </div>
@@ -454,8 +440,7 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                         className={`group cursor-pointer space-y-1 ${idx > 0 ? 'pt-3' : 'pb-3'}`}
                       >
                         <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                          <span className="text-[#9f224e] font-bold uppercase">{art.category}</span>
-                          <span>•</span>
+                          <Clock className="w-3 h-3 text-[#757575]" />
                           <span>{art.publishedAt}</span>
                         </div>
                         <h4 className="font-serif-vne text-xs sm:text-[13px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
@@ -464,8 +449,7 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                         <p className="text-xs text-[#636B79] line-clamp-2 leading-relaxed">
                           {art.summary}
                         </p>
-                        <div className="flex items-center justify-between text-[11px] text-[#757575] pt-0.5 font-bai">
-                          <span className="italic">{art.author || 'VnExpress'}</span>
+                        <div className="flex items-center justify-end text-[11px] text-[#757575] pt-0.5 font-bai">
                           <span className="flex items-center gap-1">
                             <MessageSquare className="w-2.5 h-2.5" />
                             <span>{art.commentCount || 18}</span>
@@ -497,8 +481,7 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                     {/* Right Info: Title, Sapo, Metadata */}
                     <div className="flex-1 min-w-0 space-y-1">
                       <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                        <span className="text-[#9f224e] font-bold">{article.category}</span>
-                        <span>•</span>
+                        <Clock className="w-3 h-3 text-[#757575]" />
                         <span>{article.publishedAt}</span>
                       </div>
 
@@ -511,7 +494,6 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                       </p>
 
                       <div className="flex items-center gap-3 pt-0.5 text-[11px] text-[#757575] font-bai">
-                        {article.author && <span>{article.author}</span>}
                         <span className="flex items-center gap-1">
                           <MessageSquare className="w-2.5 h-2.5" />
                           <span>{article.commentCount || 25} bình luận</span>
