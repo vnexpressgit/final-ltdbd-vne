@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { 
   Trophy, 
   Calendar, 
@@ -94,12 +94,78 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
       .sort((a, b) => new Date(b.fixture.date).getTime() - new Date(a.fixture.date).getTime());
   }, [leagueFixtures, todayDayStr]);
 
-  // Filter 1-2 Featured Matches (Trận cầu tâm điểm)
-  const featuredMatches = leagueFixtures.length > 0 
-    ? (leagueFixtures.filter(f => f.is_hot).length > 0 
-        ? leagueFixtures.filter(f => f.is_hot).slice(0, 2)
-        : leagueFixtures.slice(0, 2))
-    : [];
+  // Summary ticker matches for this tournament
+  const tickerFixtures = useMemo(() => {
+    if (!leagueFixtures || leagueFixtures.length === 0) return [];
+    const sorted = [...leagueFixtures].sort(
+      (a, b) => new Date(a.fixture.date).getTime() - new Date(b.fixture.date).getTime()
+    );
+    const todayIndex = sorted.findIndex(f => getFootballDayString(f.fixture.date) >= todayDayStr);
+    if (todayIndex === -1) {
+      return sorted.slice(-14);
+    }
+    const start = Math.max(0, todayIndex - 5);
+    const end = Math.min(sorted.length, todayIndex + 10);
+    const slice = sorted.slice(start, end);
+    if (slice.length < 8) {
+      return sorted.slice(0, 14);
+    }
+    return slice;
+  }, [leagueFixtures, todayDayStr]);
+
+  const tickerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkTickerScroll = () => {
+    if (tickerRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = tickerRef.current;
+      setCanScrollLeft(scrollLeft > 10);
+      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10);
+    }
+  };
+
+  useEffect(() => {
+    checkTickerScroll();
+  }, [tickerFixtures]);
+
+  const handleTickerScroll = (direction: 'left' | 'right') => {
+    if (tickerRef.current) {
+      const amount = direction === 'left' ? -360 : 360;
+      tickerRef.current.scrollBy({ left: amount, behavior: 'smooth' });
+      setTimeout(checkTickerScroll, 350);
+    }
+  };
+
+  const formatTickerDate = (dateIso: string) => {
+    const day = getFootballDayString(dateIso);
+    if (day === todayDayStr) return 'Hôm nay';
+    try {
+      const d = new Date(dateIso);
+      const dayNum = String(d.getDate()).padStart(2, '0');
+      const monthNum = String(d.getMonth() + 1).padStart(2, '0');
+      return `${dayNum}/${monthNum}`;
+    } catch {
+      return day;
+    }
+  };
+
+  const renderTickerStatus = (fixture: FixtureItem) => {
+    const { short, elapsed, long } = fixture.fixture.status;
+    if (['FT', 'AET', 'PEN'].includes(short) || long.includes('Finished')) {
+      return <span className="font-semibold text-[#757575]">KT</span>;
+    }
+    if (['1H', '2H', 'HT', 'ET', 'LIVE'].includes(short)) {
+      return (
+        <span className="text-[#DF4670] font-bold flex items-center gap-1">
+          <span className="w-1.5 h-1.5 rounded-full bg-[#DF4670] animate-vne-live"></span>
+          <span>{elapsed ? `${elapsed}'` : 'LIVE'}</span>
+        </span>
+      );
+    }
+    const { time } = formatKickoffVN(fixture.fixture.date);
+    return <span className="font-mono text-[#757575]">{time}</span>;
+  };
 
   // Standings data
   const standings: StandingTeam[] = league.standings || [];
@@ -107,26 +173,10 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
 
   return (
     <div className="w-full space-y-4">
-      {/* 1. HERO HEADER: Logo, League Name, Season, Breadcrumbs */}
+      {/* 1. HERO HEADER: Logo, League Name, Tabs */}
       <div className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs overflow-hidden font-bai">
-        {/* Breadcrumbs */}
-        <div className="px-3.5 py-2 bg-[#fafafa] border-b border-[#e5e5e5] flex items-center gap-1.5 text-xs text-[#636B79]">
-          <button 
-            onClick={onBackToHome}
-            className="hover:text-[#9f224e] hover:underline cursor-pointer"
-          >
-            Trang chủ
-          </button>
-          <span>/</span>
-          <span>Thể thao</span>
-          <span>/</span>
-          <span>Bóng đá</span>
-          <span>/</span>
-          <span className="text-[#222222] font-bold">{league.vietnameseName}</span>
-        </div>
-
         {/* Hero Title & Identity */}
-        <div className="p-3.5 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3.5">
+        <div className="p-3.5 sm:p-4 flex items-center justify-between gap-3.5">
           <div className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-lg p-1.5 bg-[#fbfcfd] border border-[#e5e5e5] flex items-center justify-center flex-shrink-0 shadow-2xs">
               <img 
@@ -136,20 +186,10 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                 loading="lazy"
               />
             </div>
-            <div className="space-y-0.5">
-              <div className="flex items-center gap-2 flex-wrap">
-                <h1 className="text-lg sm:text-xl font-bold text-[#222222] tracking-tight">
-                  {league.name}
-                </h1>
-                <span className="text-xs text-[#9f224e] bg-rose-50 px-2 py-0.5 rounded font-mono font-bold border border-rose-200">
-                  Mùa {league.season}
-                </span>
-              </div>
-              <p className="text-xs text-[#636B79] flex items-center gap-1.5 font-normal">
-                <span className="font-semibold text-[#38404D]">{league.vietnameseName}</span>
-                <span>•</span>
-                <span>Quốc gia: {league.country}</span>
-              </p>
+            <div>
+              <h1 className="text-lg sm:text-xl font-bold text-[#222222] tracking-tight">
+                {league.name}
+              </h1>
             </div>
           </div>
         </div>
@@ -219,129 +259,112 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
 
       {/* 2 & 3. MAIN CONTENT (70%) + RIGHT SIDEBAR (30%) */}
       {activeTab === 'overview' && (
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-4 items-start">
-          
-          {/* MAIN CONTENT COLUMN (70% ~ 8 cols on LG) */}
-          <div className="lg:col-span-8 space-y-3.5 sm:space-y-4">
-
-            {/* BLOCK 1: TRẬN CẦU TÂM ĐIỂM (Featured Matches) */}
-            <section className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs p-3.5 sm:p-4">
-              <div className="flex items-center justify-between pb-2.5 mb-3.5 border-b border-[#f0f0f0]">
-                <div className="flex items-center gap-2">
-                  <div className="w-2.5 h-2.5 rounded-full bg-[#DF4670] animate-vne-live"></div>
-                  <h2 className="font-bai text-sm sm:text-base font-bold text-[#222222] uppercase tracking-tight">
-                    Trận cầu tâm điểm
-                  </h2>
-                </div>
-                <button
-                  onClick={() => handleTabClick('lich-thi-dau')}
-                  className="font-bai text-xs text-[#9f224e] hover:underline font-semibold flex items-center gap-1 cursor-pointer"
-                >
-                  <span>Xem tất cả lịch</span>
-                  <ChevronRight className="w-3.5 h-3.5" />
-                </button>
-              </div>
-
-              {/* Match Cards List */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {featuredMatches.map((match) => {
-                  const { time, dateVN } = formatKickoffVN(match.fixture.date);
-                  const isFinished = ['FT', 'AET', 'PEN'].includes(match.fixture.status.short) || 
-                                     match.fixture.status.long.includes('Finished');
-                  const isLive = !isFinished && ['1H', '2H', 'HT', 'ET', 'LIVE'].includes(match.fixture.status.short);
-
-                  return (
-                    <div 
-                      key={match.fixture.id}
-                      className="bg-[#fbfcfd] hover:bg-white rounded-md border border-[#e5e5e5] p-3 transition-colors hover:shadow-xs flex flex-col justify-between group"
-                    >
-                      {/* Top Header info */}
-                      <div className="flex items-center justify-between text-[11px] text-[#636B79] pb-2 mb-2 border-b border-[#f0f0f0] font-bai">
-                        <span className="font-semibold text-[#38404D]">{formatRoundVN(match.league.round, undefined, league.id)}</span>
-                        {isLive ? (
-                          <span className="text-[#DF4670] font-bold flex items-center gap-1">
-                            <span className="w-1.5 h-1.5 rounded-full bg-[#DF4670] animate-vne-live"></span>
-                            Trực tiếp {match.fixture.status.elapsed}'
-                          </span>
-                        ) : isFinished ? (
-                          <span className="font-mono text-[#636B79]">Đã kết thúc</span>
-                        ) : (
-                          <span className="font-mono text-[#636B79] flex items-center gap-1">
-                            <Clock className="w-3 h-3 text-[#757575]" />
-                            {time} • {dateVN}
-                          </span>
-                        )}
-                      </div>
-
-                      {/* Scoreboard / Teams */}
-                      <div 
-                        onClick={() => onOpenMatchDetails(match)}
-                        className="cursor-pointer space-y-2 py-0.5"
-                      >
-                        {/* Home Team */}
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2">
-                            <img 
-                              src={match.teams.home.logo} 
-                              alt={match.teams.home.name} 
-                              className="w-5 h-5 object-contain"
-                              loading="lazy"
-                            />
-                            <span className="text-xs sm:text-[13px] font-semibold text-[#222222] group-hover:text-[#9f224e] transition-colors">
-                              {match.teams.home.name}
-                            </span>
-                          </div>
-                          <span className="font-mono font-bold text-sm text-[#222222]">
-                            {isFinished || isLive ? match.goals.home : '-'}
-                          </span>
-                        </div>
-
-                        {/* Away Team */}
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2">
-                            <img 
-                              src={match.teams.away.logo} 
-                              alt={match.teams.away.name} 
-                              className="w-5 h-5 object-contain"
-                              loading="lazy"
-                            />
-                            <span className="text-xs sm:text-[13px] font-semibold text-[#222222] group-hover:text-[#9f224e] transition-colors">
-                              {match.teams.away.name}
-                            </span>
-                          </div>
-                          <span className="font-mono font-bold text-sm text-[#222222]">
-                            {isFinished || isLive ? match.goals.away : '-'}
-                          </span>
-                        </div>
-                      </div>
-
-                      {/* Bottom Actions: Highlight button (nền trắng viền đỏ, icon camera) */}
-                      <div className="pt-2.5 mt-2 border-t border-[#f0f0f0] flex items-center justify-between gap-2 font-bai">
-                        {isFinished ? (
-                          <button
-                            onClick={() => onOpenHighlight(match)}
-                            className="px-2.5 py-1 bg-white hover:bg-rose-50 text-[#9f224e] border border-[#9f224e] text-xs font-bold rounded flex items-center gap-1.5 transition-colors shadow-2xs cursor-pointer"
-                          >
-                            <Video className="w-3.5 h-3.5 text-[#9f224e]" />
-                            <span>Highlight</span>
-                          </button>
-                        ) : (
-                          <span className="text-[11px] text-[#757575]">Sân vận động chính</span>
-                        )}
-
-                        <button
-                          onClick={() => onOpenMatchDetails(match)}
-                          className="text-[11px] text-[#636B79] hover:text-[#9f224e] font-semibold flex items-center gap-0.5 ml-auto cursor-pointer"
-                        >
-                          <span>Chi tiết</span>
-                          <ChevronRight className="w-3 h-3" />
-                        </button>
-                      </div>
+        <div className="space-y-3.5 sm:space-y-4">
+          {/* TÓM TẮT LỊCH THI ĐẤU (Horizontal Match Strip Ticker) */}
+          {tickerFixtures.length > 0 && (
+            <div className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs relative overflow-hidden font-bai">
+              <div
+                ref={tickerRef}
+                onScroll={checkTickerScroll}
+                className="flex items-stretch overflow-x-auto scrollbar-none"
+              >
+                {tickerFixtures.map((match) => (
+                  <div
+                    key={match.fixture.id}
+                    onClick={() => onOpenMatchDetails(match)}
+                    className="min-w-[155px] sm:min-w-[175px] max-w-[190px] p-2.5 sm:px-3.5 sm:py-2.5 border-r border-[#e5e5e5] flex-shrink-0 flex flex-col justify-between hover:bg-[#fbfcfd] cursor-pointer transition-colors group select-none"
+                  >
+                    {/* Top status & date row */}
+                    <div className="flex items-center justify-between text-[11px] sm:text-xs text-[#757575] mb-2 font-bai">
+                      {renderTickerStatus(match)}
+                      <span className="text-[#757575] font-normal">{formatTickerDate(match.fixture.date)}</span>
                     </div>
-                  );
-                })}
+
+                    {/* Home Team */}
+                    <div className="flex items-center justify-between gap-1.5 py-0.5">
+                      <div className="flex items-center gap-1.5 min-w-0 flex-1">
+                        <img
+                          src={match.teams.home.logo}
+                          alt={match.teams.home.name}
+                          className="w-4 h-4 object-contain flex-shrink-0"
+                          loading="lazy"
+                        />
+                        <span className="text-xs sm:text-[13px] text-[#222222] truncate font-medium group-hover:text-[#9f224e] transition-colors">
+                          {match.teams.home.name}
+                        </span>
+                      </div>
+                      <span className="text-xs sm:text-sm font-bold font-mono text-[#222222] flex-shrink-0 ml-1">
+                        {['FT', 'AET', 'PEN', '1H', '2H', 'HT', 'ET', 'LIVE'].includes(match.fixture.status.short) || match.fixture.status.long.includes('Finished')
+                          ? match.goals.home
+                          : '-'}
+                      </span>
+                    </div>
+
+                    {/* Away Team */}
+                    <div className="flex items-center justify-between gap-1.5 py-0.5">
+                      <div className="flex items-center gap-1.5 min-w-0 flex-1">
+                        <img
+                          src={match.teams.away.logo}
+                          alt={match.teams.away.name}
+                          className="w-4 h-4 object-contain flex-shrink-0"
+                          loading="lazy"
+                        />
+                        <span className="text-xs sm:text-[13px] text-[#222222] truncate font-medium group-hover:text-[#9f224e] transition-colors">
+                          {match.teams.away.name}
+                        </span>
+                      </div>
+                      <span className="text-xs sm:text-sm font-bold font-mono text-[#222222] flex-shrink-0 ml-1">
+                        {['FT', 'AET', 'PEN', '1H', '2H', 'HT', 'ET', 'LIVE'].includes(match.fixture.status.short) || match.fixture.status.long.includes('Finished')
+                          ? match.goals.away
+                          : '-'}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+
+                {/* Nút Xem chi tiết ở cuối dãy lịch thi đấu */}
+                <div
+                  onClick={() => handleTabClick('lich-thi-dau')}
+                  className="min-w-[110px] sm:min-w-[125px] flex-shrink-0 p-3 bg-[#fafafa] hover:bg-rose-50/70 border-l border-[#e5e5e5] flex flex-col items-center justify-center text-center cursor-pointer transition-colors group select-none"
+                  title="Xem toàn bộ lịch thi đấu của giải"
+                >
+                  <div className="w-7 h-7 rounded-full bg-white border border-[#e5e5e5] group-hover:border-[#9f224e] group-hover:bg-[#9f224e] flex items-center justify-center transition-all mb-1 shadow-2xs">
+                    <ChevronRight className="w-4 h-4 text-[#636B79] group-hover:text-white transition-colors" />
+                  </div>
+                  <span className="text-xs font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors whitespace-nowrap">
+                    Xem chi tiết
+                  </span>
+                </div>
               </div>
-            </section>
+
+              {/* Scroll buttons */}
+              {canScrollLeft && (
+                <button
+                  onClick={() => handleTickerScroll('left')}
+                  aria-label="Cuộn sang trái"
+                  className="absolute left-0 top-0 bottom-0 z-10 w-7 sm:w-8 bg-gradient-to-r from-white via-white/95 to-transparent flex items-center justify-start pl-1 text-[#666666] hover:text-[#222222] transition cursor-pointer"
+                >
+                  <ChevronLeft className="w-4 sm:w-5 h-4 sm:h-5" />
+                </button>
+              )}
+
+              {canScrollRight && (
+                <button
+                  onClick={() => handleTickerScroll('right')}
+                  aria-label="Cuộn sang phải"
+                  className="absolute right-0 top-0 bottom-0 z-10 w-7 sm:w-8 bg-gradient-to-l from-white via-white/95 to-transparent flex items-center justify-end pr-1 text-[#666666] hover:text-[#222222] transition cursor-pointer"
+                >
+                  <ChevronRight className="w-4 sm:w-5 h-4 sm:h-5" />
+                </button>
+              )}
+            </div>
+          )}
+
+          {/* 2-Column Grid: Main Content (70%) + Right Sidebar (30%) */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-3.5 sm:gap-4 items-start">
+            
+            {/* MAIN CONTENT COLUMN (70% ~ 8 cols on LG) */}
+            <div className="lg:col-span-8 space-y-3.5 sm:space-y-4">
 
             {/* BLOCK 2: PHÂN TÍCH CHUYÊN SÂU (Deep-dive Analysis) */}
             <section className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs p-3.5 sm:p-4">
@@ -672,7 +695,8 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
 
           </aside>
         </div>
-      )}
+      </div>
+    )}
 
       {/* TAB 2: LỊCH THI ĐẤU (Hôm nay đi về tương lai) */}
       {activeTab === 'lich-thi-dau' && (

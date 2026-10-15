@@ -24,12 +24,43 @@ export const VnExpressHeader: React.FC<VnExpressHeaderProps> = ({
   onOpenLeaguesDrawer,
   onOpenStandingsDrawer,
   hasActiveFilters,
+  onNavigateHome,
 }) => {
   return (
     <nav className="sticky top-0 z-40 bg-white border-b border-[#e5e5e5] shadow-xs">
       <div className="max-w-[1130px] mx-auto px-3 sm:px-4 flex items-center justify-between gap-2 h-11">
-        {/* Main Tabs: Lịch thi đấu & Kết quả & LIVE (VnExpress Sub-nav style) */}
+        {/* Main Tabs: Lịch thi đấu & Kết quả & LIVE with Breadcrumb in front */}
         <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto scrollbar-none py-1 whitespace-nowrap min-w-0 font-bai">
+          {/* Breadcrumb: VnExpress / Thể thao / Bóng đá */}
+          <div className="flex items-center gap-1 sm:gap-1.5 flex-shrink-0 text-xs sm:text-[13px]">
+            <button
+              onClick={onNavigateHome}
+              className="font-serif font-black text-[#9f224e] text-sm sm:text-base tracking-tight hover:opacity-85 transition cursor-pointer"
+              title="VnExpress Trang chủ"
+            >
+              VnExpress
+            </button>
+            <span className="text-[#b5b5b5] text-[11px] select-none font-light">/</span>
+            <button
+              onClick={onNavigateHome}
+              className="font-medium text-[#4f5663] hover:text-[#9f224e] transition cursor-pointer"
+              title="Chuyên mục Thể thao"
+            >
+              Thể thao
+            </button>
+            <span className="text-[#b5b5b5] text-[11px] select-none font-light">/</span>
+            <button
+              onClick={onNavigateHome}
+              className="font-bold text-[#222222] hover:text-[#9f224e] transition cursor-pointer"
+              title="Bóng đá"
+            >
+              Bóng đá
+            </button>
+          </div>
+
+          {/* Divider between breadcrumb and action tabs */}
+          <div className="h-4 w-[1px] bg-[#d9d9d9] mx-1 sm:mx-1.5 flex-shrink-0" />
+
           <button
             onClick={() => onTabChange('schedule')}
             className={`px-3 sm:px-3.5 py-1.5 rounded-md text-xs sm:text-[13px] font-semibold flex items-center gap-1.5 transition-all flex-shrink-0 cursor-pointer ${
