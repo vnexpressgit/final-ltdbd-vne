@@ -1031,7 +1031,7 @@ export default function App() {
                     />
                   ) : (
                     <HotLeaguesSidebar
-                      onViewLeague={(leagueId) => handleLeagueChange(leagueId)}
+                      onViewLeague={(leagueId) => handleLeagueChange(leagueId, true, 'standings')}
                       onSelectTeam={(teamName) => {
                         navigateToTeam(teamName);
                       }}
@@ -1052,7 +1052,7 @@ export default function App() {
                   />
                 ) : (
                   <HotLeaguesSidebar
-                    onViewLeague={(leagueId) => handleLeagueChange(leagueId)}
+                    onViewLeague={(leagueId) => handleLeagueChange(leagueId, true, 'standings')}
                     onSelectTeam={(teamName) => navigateToTeam(teamName)}
                   />
                 )}
@@ -1143,7 +1143,7 @@ export default function App() {
             ) : (
               <HotLeaguesSidebar
                 onViewLeague={(leagueId) => {
-                  handleLeagueChange(leagueId);
+                  handleLeagueChange(leagueId, true, 'standings');
                   setIsStandingsDrawerOpen(false);
                 }}
                 onSelectTeam={(teamName) => {

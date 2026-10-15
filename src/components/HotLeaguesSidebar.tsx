@@ -157,7 +157,10 @@ export const HotLeaguesSidebar: React.FC<HotLeaguesSidebarProps> = ({
             className="bg-white border border-[#e5e5e5] rounded-lg overflow-hidden shadow-xs hover:border-[#c7c7c7] transition-colors"
           >
             {/* League Header */}
-            <div className="bg-[#fafafa] px-3 py-1.5 border-b border-[#e5e5e5] flex items-center justify-between font-bai">
+            <div 
+              onClick={() => onViewLeague(league.id, league.vietnameseName)}
+              className="bg-[#fafafa] hover:bg-gray-100 px-3 py-1.5 border-b border-[#e5e5e5] flex items-center justify-between font-bai cursor-pointer transition-colors"
+            >
               <div className="flex items-center gap-1.5 truncate">
                 <img
                   src={league.logo}

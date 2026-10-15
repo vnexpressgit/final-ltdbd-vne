@@ -324,7 +324,7 @@ export const FullLeagueStandings: React.FC<FullLeagueStandingsProps> = ({
               }}
               className="text-xs text-[#9f224e] hover:text-[#831b40] font-bold inline-flex items-center gap-1 transition-colors cursor-pointer"
             >
-              <span>Xem chi tiết BXH đầy đủ (T-H-B, BT-BB, Phong độ)</span>
+              <span>Xem chi tiết</span>
               <ChevronRight className="w-3.5 h-3.5" />
             </button>
           </div>
