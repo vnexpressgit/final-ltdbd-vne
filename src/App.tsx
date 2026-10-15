@@ -1021,6 +1021,8 @@ export default function App() {
                         navigateToTeam(teamName);
                       }}
                       onBackToHotLeagues={() => handleLeagueChange(null)}
+                      variant="compact"
+                      onOpenDetailedStandings={() => handleLeagueChange(selectedLeague.id, true, 'standings')}
                     />
                   ) : (
                     <HotLeaguesSidebar
@@ -1040,6 +1042,8 @@ export default function App() {
                     league={selectedLeague}
                     onSelectTeam={(teamName) => navigateToTeam(teamName)}
                     onBackToHotLeagues={() => handleLeagueChange(null)}
+                    variant="compact"
+                    onOpenDetailedStandings={() => handleLeagueChange(selectedLeague.id, true, 'standings')}
                   />
                 ) : (
                   <HotLeaguesSidebar
@@ -1125,6 +1129,11 @@ export default function App() {
                 }}
                 onBackToHotLeagues={() => handleLeagueChange(null)}
                 onCloseDrawer={() => setIsStandingsDrawerOpen(false)}
+                variant="compact"
+                onOpenDetailedStandings={() => {
+                  setIsStandingsDrawerOpen(false);
+                  handleLeagueChange(selectedLeague.id, true, 'standings');
+                }}
               />
             ) : (
               <HotLeaguesSidebar

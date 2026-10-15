@@ -65,13 +65,14 @@ export const LeagueStandingsModal: React.FC<LeagueStandingsModalProps> = ({
                 <th className="py-2.5 px-2 text-center hidden sm:table-cell">Thắng</th>
                 <th className="py-2.5 px-2 text-center hidden sm:table-cell">Hòa</th>
                 <th className="py-2.5 px-2 text-center hidden sm:table-cell">Bại</th>
-                <th className="py-2.5 px-2 text-center hidden sm:table-cell">BT-BB</th>
-                <th className="py-2.5 px-2 text-center">HS</th>
-                <th className="py-2.5 pr-3 text-right font-bold text-[#9f224e]">Điểm</th>
-                <th className="py-2.5 px-2 text-center hidden md:table-cell">Phong độ</th>
+                <th className="py-2.5 px-2 text-center hidden sm:table-cell" title="Bàn thắng">BT</th>
+                <th className="py-2.5 px-2 text-center hidden sm:table-cell" title="Bàn thua">BB</th>
+                <th className="py-2.5 px-2 text-center" title="Hiệu số">HS</th>
+                <th className="py-2.5 pr-3 text-right font-bold text-[#9f224e]" title="Điểm số">Điểm</th>
+                <th className="py-2.5 px-2 text-center hidden md:table-cell" title="5 trận gần nhất">Phong độ</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-gray-100">
+            <tbody className="divide-y divide-gray-100 font-bai">
               {leagueData.teams.map((item) => {
                 const isEpl = leagueData.id === 39;
                 const isTop1 = item.rank === 1;
@@ -131,7 +132,7 @@ export const LeagueStandingsModal: React.FC<LeagueStandingsModalProps> = ({
                       {item.played}
                     </td>
 
-                    <td className="py-2.5 px-2 text-center text-gray-500 font-mono hidden sm:table-cell">
+                    <td className="py-2.5 px-2 text-center text-emerald-700 font-semibold font-mono hidden sm:table-cell">
                       {item.win}
                     </td>
 
@@ -139,15 +140,21 @@ export const LeagueStandingsModal: React.FC<LeagueStandingsModalProps> = ({
                       {item.draw}
                     </td>
 
-                    <td className="py-2.5 px-2 text-center text-gray-500 font-mono hidden sm:table-cell">
+                    <td className="py-2.5 px-2 text-center text-rose-600 font-semibold font-mono hidden sm:table-cell">
                       {item.lose}
                     </td>
 
-                    <td className="py-2.5 px-2 text-center text-gray-500 font-mono text-[11px] hidden sm:table-cell">
-                      {item.goalsFor}-{item.goalsAgainst}
+                    <td className="py-2.5 px-2 text-center text-gray-700 font-mono text-xs hidden sm:table-cell">
+                      {item.goalsFor}
                     </td>
 
-                    <td className="py-2.5 px-2 text-center font-mono font-medium text-gray-700">
+                    <td className="py-2.5 px-2 text-center text-gray-500 font-mono text-xs hidden sm:table-cell">
+                      {item.goalsAgainst}
+                    </td>
+
+                    <td className={`py-2.5 px-2 text-center font-mono font-semibold text-xs ${
+                      item.goalDifference > 0 ? 'text-emerald-700' : item.goalDifference < 0 ? 'text-rose-600' : 'text-gray-600'
+                    }`}>
                       {item.goalDifference > 0 ? `+${item.goalDifference}` : item.goalDifference}
                     </td>
 
@@ -160,15 +167,16 @@ export const LeagueStandingsModal: React.FC<LeagueStandingsModalProps> = ({
                         {item.form.map((f, i) => (
                           <span
                             key={i}
+                            title={f === 'W' ? 'Thắng' : f === 'D' ? 'Hòa' : 'Bại'}
                             className={`w-4 h-4 rounded-full text-[9px] font-bold flex items-center justify-center text-white ${
                               f === 'W'
                                 ? 'bg-emerald-600'
                                 : f === 'D'
-                                ? 'bg-amber-500'
-                                : 'bg-red-600'
+                                ? 'bg-gray-400'
+                                : 'bg-rose-500'
                             }`}
                           >
-                            {f}
+                            {f === 'W' ? 'T' : f === 'D' ? 'H' : 'B'}
                           </span>
                         ))}
                       </div>

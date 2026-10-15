@@ -904,12 +904,11 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
 
       {/* TAB 3: BẢNG XẾP HẠNG TOÀN DIỆN */}
       {activeTab === 'standings' && (
-        <div className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs p-3.5 sm:p-5">
-          <FullLeagueStandings 
-            league={league}
-            onSelectTeam={onSelectTeam}
-          />
-        </div>
+        <FullLeagueStandings 
+          league={league}
+          onSelectTeam={onSelectTeam}
+          variant="detailed"
+        />
       )}
 
       {/* TAB 4: THỐNG KÊ */}
