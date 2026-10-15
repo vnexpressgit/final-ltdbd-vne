@@ -92,7 +92,7 @@ export const MiniStandings: React.FC<MiniStandingsProps> = ({ onSelectTeam }) =>
               selectedLeague === 'c2' ? 'bg-[#9f224e] text-white shadow-2xs' : 'text-gray-600 hover:text-gray-900'
             }`}
           >
-            Cúp C2
+            Europa League
           </button>
           <button
             onClick={() => setSelectedLeague('ligue1')}
@@ -204,7 +204,7 @@ export const MiniStandings: React.FC<MiniStandingsProps> = ({ onSelectTeam }) =>
                 <span className="w-2 h-2 rounded-full bg-blue-600"></span> 1-5: Cúp C1
               </span>
               <span className="flex items-center gap-1">
-                <span className="w-2 h-2 rounded-full bg-amber-600"></span> 6: Cúp C2
+                <span className="w-2 h-2 rounded-full bg-amber-600"></span> 6: Europa League
               </span>
               <span className="flex items-center gap-1">
                 <span className="w-2 h-2 rounded-full bg-red-500"></span> 18-20: Xuống hạng

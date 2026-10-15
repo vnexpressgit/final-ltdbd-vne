@@ -105,7 +105,7 @@ export const LEAGUES_CONFIG = [
     id: 3,
     name: "UEFA Europa League",
     country: "Châu Âu",
-    vietnameseName: "Cúp C2 Châu Âu",
+    vietnameseName: "Europa League",
     logo: "https://is.vnecdn.net/objects/leagues/3.png?v=1",
     flag: "https://is.vnecdn.net/objects/flags/eu.svg?v=1",
     tier: 1 as const,

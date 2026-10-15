@@ -765,7 +765,7 @@ const MAN_UTD_DEDICATED_NEWS: ArticleItem[] = [
     id: "mu-n-15",
     leagueId: 39,
     title: "Tình hình thể lực của Noussair Mazraoui: Khả năng ra sân tại đấu trường châu Âu",
-    summary: "Hậu vệ người Maroc đã hoàn thành bài kiểm tra thể lực chuyên sâu và sẵn sàng cho những thử thách cam go tại vòng bảng Cúp C2 tuần này.",
+    summary: "Hậu vệ người Maroc đã hoàn thành bài kiểm tra thể lực chuyên sâu và sẵn sàng cho những thử thách cam go tại vòng bảng Europa League tuần này.",
     image: NEWS_IMAGES[6],
     publishedAt: "1 ngày trước",
     category: "Lực lượng",
@@ -967,7 +967,7 @@ const MAN_UTD_DEDICATED_NEWS: ArticleItem[] = [
     summary: "Đấu trường châu Âu là mục tiêu tối thượng mà thầy trò Quỷ Đỏ quyết tâm chinh phục bằng chiều sâu lực lượng đồng đều.",
     image: NEWS_IMAGES[0],
     publishedAt: "10 ngày trước",
-    category: "Cúp C2",
+    category: "Europa League",
     author: "Hồng Duy",
     commentCount: 75
   },
@@ -1250,7 +1250,7 @@ export function getAllFootballNews(): ArticleItem[] {
       summary: "Các CLB giàu truyền thống như Manchester United, Tottenham và Roma đang phải chiến đấu cật lực để khẳng định vị thế tại đấu trường hạng hai châu Âu.",
       image: NEWS_IMAGES[3],
       publishedAt: "8 giờ trước",
-      category: "Cúp C2",
+      category: "Europa League",
       author: "VnExpress",
       commentCount: 77
     },

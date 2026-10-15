@@ -33,7 +33,7 @@ export const MatchCard: React.FC<MatchCardProps> = ({
   const [imgErrorHome, setImgErrorHome] = useState(false);
   const [imgErrorAway, setImgErrorAway] = useState(false);
 
-  const { time, dateVN, fullDateVN, isLateNight, isEvening } = formatKickoffVN(fixture.fixture.date);
+  const { time, dateVN } = formatKickoffVN(fixture.fixture.date);
   const status = fixture.fixture.status.short;
   const isFinished = ['FT', 'AET'].includes(status) || fixture.fixture.status.long === 'Match Finished' || fixture.fixture.status.long === 'Finished';
   const isLive = !isFinished && ['1H', '2H', 'HT', 'ET', 'LIVE'].includes(status);
@@ -184,7 +184,7 @@ export const MatchCard: React.FC<MatchCardProps> = ({
                   {time}
                 </span>
                 <span className="text-[10px] text-gray-500 font-medium">
-                  {dateVN} {isLateNight ? '(Đêm)' : ''}
+                  {dateVN}
                 </span>
               </div>
             )}

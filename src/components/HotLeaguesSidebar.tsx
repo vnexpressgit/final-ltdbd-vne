@@ -106,7 +106,7 @@ export const HOT_LEAGUES_DATA: HotLeagueSummary[] = [
   {
     id: 3,
     name: "UEFA Europa League",
-    vietnameseName: "Cúp C2 Châu Âu",
+    vietnameseName: "Europa League",
     country: "Châu Âu",
     logo: "https://is.vnecdn.net/objects/leagues/3.png?v=1",
     flag: "https://is.vnecdn.net/objects/flags/eu.svg?v=1",

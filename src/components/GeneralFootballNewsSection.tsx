@@ -13,7 +13,7 @@ const LEAGUE_NAMES_MAP: Record<number, string> = {
   39: "Ngoại Hạng Anh",
   340: "V-League",
   2: "Cúp C1 Châu Âu",
-  3: "Cúp C2 Châu Âu",
+  3: "Europa League",
   848: "Cúp C3 Châu Âu",
   140: "La Liga",
   135: "Serie A",
@@ -32,7 +32,7 @@ const getArticleLeagueName = (article: ArticleItem): string => {
   }
   if (article.category) {
     if (article.category === "Cúp C1") return "Cúp C1 Châu Âu";
-    if (article.category === "Europa League") return "Cúp C2 Châu Âu";
+    if (article.category === "Europa League" || article.category === "Cúp C2") return "Europa League";
     return article.category;
   }
   return "Bóng đá";

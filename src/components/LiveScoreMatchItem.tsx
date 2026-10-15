@@ -25,7 +25,7 @@ export const LiveScoreMatchItem: React.FC<LiveScoreMatchItemProps> = ({
   const [imgErrHome, setImgErrHome] = useState(false);
   const [imgErrAway, setImgErrAway] = useState(false);
 
-  const { time, isLateNight } = formatKickoffVN(fixture.fixture.date);
+  const { time } = formatKickoffVN(fixture.fixture.date);
   const status = fixture.fixture.status.short;
   const isFinished = ['FT', 'AET'].includes(status) || fixture.fixture.status.long === 'Match Finished' || fixture.fixture.status.long === 'Finished';
   const isLive = !isFinished && ['1H', '2H', 'HT', 'ET', 'LIVE'].includes(status);
@@ -69,11 +69,9 @@ export const LiveScoreMatchItem: React.FC<LiveScoreMatchItemProps> = ({
               <span className="text-[#222222] font-bold text-xs sm:text-[13px] tracking-tight font-mono">
                 {time}
               </span>
-              {mode === 'live' ? (
+              {mode === 'live' && (
                 <span className="text-[9px] text-[#9f224e] font-bold">{formatKickoffVN(fixture.fixture.date).dateVN}</span>
-              ) : isLateNight ? (
-                <span className="text-[9px] text-indigo-700 font-medium">Đêm</span>
-              ) : null}
+              )}
             </div>
           )}
         </div>

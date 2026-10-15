@@ -136,7 +136,7 @@ export function transformVnExpressEuropaLeagueFixture(raw: any): FixtureItem {
       round: formatRoundVN(raw.round, raw.round_int, 3),
       standings: true,
       tier: 1,
-      vietnameseName: 'Cúp C2 Châu Âu'
+      vietnameseName: 'Europa League'
     },
     teams: {
       home: {

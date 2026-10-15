@@ -16,7 +16,7 @@ export const MAN_UTD_PROFILE: TeamProfile = {
   founded: 1878,
   president: 'Sir Jim Ratcliffe',
   marketValue: '857 triệu Euro',
-  mainCompetitions: ['Ngoại Hạng Anh', 'Cúp C2 châu Âu (Europa League)', 'Cúp FA', 'Carabao Cup'],
+  mainCompetitions: ['Ngoại Hạng Anh', 'Europa League', 'Cúp FA', 'Carabao Cup'],
   rank: 5,
   points: 12,
   played: 6,

@@ -12,11 +12,11 @@ export const SEOSection: React.FC<SEOSectionProps> = ({ mode, selectedDate }) =>
   const faqs = [
     {
       q: "Lịch thi đấu bóng đá hôm nay trên VnExpress gồm những giải đấu nào?",
-      a: "Chuyên mục Lịch thi đấu Thể thao VnExpress cung cấp đầy đủ lịch thi đấu của tất cả các giải đấu hàng đầu: Ngoại Hạng Anh (Premier League), Cúp C1 Châu Âu (UEFA Champions League), V-League Việt Nam, La Liga, Serie A, Bundesliga, Ligue 1, Cúp C2, FA Cup, ĐTQG Việt Nam, cùng các giải đấu của siêu sao Cristiano Ronaldo (Saudi Pro League) và Lionel Messi (MLS)."
+      a: "Chuyên mục Lịch thi đấu Thể thao VnExpress cung cấp đầy đủ lịch thi đấu của tất cả các giải đấu hàng đầu: Ngoại Hạng Anh (Premier League), Cúp C1 Châu Âu (UEFA Champions League), V-League Việt Nam, La Liga, Serie A, Bundesliga, Ligue 1, Europa League, FA Cup, ĐTQG Việt Nam, cùng các giải đấu của siêu sao Cristiano Ronaldo (Saudi Pro League) và Lionel Messi (MLS)."
     },
     {
       q: "Bóng đá hôm nay và tối nay được phát sóng trực tiếp trên những kênh truyền hình nào?",
-      a: "Tất cả các trận đấu đều được cập nhật chính xác kênh phát sóng tiếp sóng tại Việt Nam: K+Sport1, K+Action (Ngoại Hạng Anh); FPT Play & TV360 (Cúp C1, C2, FA Cup); VTV5, VTV Cần Thơ (V-League, ĐT Việt Nam); SCTV15 & VTVcab (La Liga, Serie A, Bundesliga)."
+      a: "Tất cả các trận đấu đều được cập nhật chính xác kênh phát sóng tiếp sóng tại Việt Nam: K+Sport1, K+Action (Ngoại Hạng Anh); FPT Play & TV360 (Cúp C1, Europa League, FA Cup); VTV5, VTV Cần Thơ (V-League, ĐT Việt Nam); SCTV15 & VTVcab (La Liga, Serie A, Bundesliga)."
     },
     {
       q: "Tại sao các trận đấu rạng sáng (00:00 - 05:00) vẫn được hiển thị trong tab Hôm nay?",
