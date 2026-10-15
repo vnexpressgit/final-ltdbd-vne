@@ -456,32 +456,6 @@ export const TeamDashboard: React.FC<TeamDashboardProps> = ({
 
   return (
     <div className="w-full space-y-4">
-      {/* 1. Breadcrumb */}
-      <nav className="flex items-center gap-1.5 text-xs text-gray-500">
-        <button 
-          onClick={onNavigateHome} 
-          className="hover:text-[#9f224e] transition hover:underline"
-        >
-          Trang chủ
-        </button>
-        <span>/</span>
-        <button 
-          onClick={onNavigateHome} 
-          className="hover:text-[#9f224e] transition hover:underline"
-        >
-          Thể thao
-        </button>
-        <span>/</span>
-        <button 
-          onClick={onNavigateHome} 
-          className="hover:text-[#9f224e] transition hover:underline"
-        >
-          Dữ liệu bóng đá
-        </button>
-        <span>/</span>
-        <span className="text-gray-900 font-bold">CLB {team.name}</span>
-      </nav>
-
       {/* 2. Club Hero Header: Cleaned up as requested (no 'Quốc tế', no 'Theo dõi CLB', no stadium/coach/competition strings) */}
       <section className="bg-white rounded-2xl border border-gray-200 shadow-xs overflow-hidden">
         {/* Top Info Banner */}
