@@ -193,7 +193,7 @@ export const MatchDetailView: React.FC<MatchDetailViewProps> = ({
           )}
 
           {activeTab === 'news' && (
-            <TabMatchNews news={matchDetails.news} matchHeadline={matchDetails.headline} />
+            <TabMatchNews fixture={fixture} news={matchDetails.news} matchHeadline={matchDetails.headline} />
           )}
         </div>
 

@@ -4,7 +4,6 @@ import {
   BellRing, 
   Video, 
   ChevronRight, 
-  Tv, 
   Flame, 
   FileText, 
   BarChart3,
@@ -255,32 +254,6 @@ export const MatchCard: React.FC<MatchCardProps> = ({
           </div>
         )}
 
-        {/* Broadcaster Chips (Rule 6: Zero-click search expectation) */}
-        {fixture.broadcasters && fixture.broadcasters.length > 0 && !isFinished && (
-          <div className="mt-2.5 flex items-center justify-center gap-1.5 flex-wrap">
-            <span className="text-[10px] text-gray-500 font-medium flex items-center gap-1">
-              <Tv className="w-3 h-3 text-gray-400" /> Phát sóng:
-            </span>
-            {fixture.broadcasters.map((bc, idx) => (
-              <span
-                key={idx}
-                className={`text-[10px] font-bold px-2 py-0.5 rounded-sm border ${
-                  bc.isExclusive
-                    ? 'bg-red-50 text-red-700 border-red-300'
-                    : bc.name.includes('K+')
-                    ? 'bg-amber-50 text-amber-800 border-amber-300'
-                    : bc.name.includes('FPT')
-                    ? 'bg-orange-50 text-orange-700 border-orange-300'
-                    : bc.name.includes('TV360')
-                    ? 'bg-blue-50 text-blue-700 border-blue-300'
-                    : 'bg-gray-100 text-gray-700 border-gray-300'
-                }`}
-              >
-                {bc.name}
-              </span>
-            ))}
-          </div>
-        )}
       </div>
 
       {/* Row 3: Action Links (Video Highlight, Preview, Lineups, Details) */}

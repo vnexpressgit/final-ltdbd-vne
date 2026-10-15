@@ -4,11 +4,9 @@ import {
   MapPin, 
   User, 
   Share2, 
-  ChevronRight,
   Calendar,
   Check,
-  Trophy,
-  Tv
+  Trophy
 } from 'lucide-react';
 import { FixtureItem, MatchFullDetails } from '../../types/football';
 import { formatKickoffVN, formatRoundVN } from '../../utils/footballUtils';
@@ -137,22 +135,17 @@ export const MatchHeroSection: React.FC<MatchHeroSectionProps> = ({
       
       {/* 1. Breadcrumbs & Top Bar */}
       <div className="bg-[#fafafa] px-3.5 sm:px-6 py-2.5 border-b border-gray-100 flex items-center justify-between gap-2 text-xs text-gray-500">
-        <div className="flex items-center gap-1.5 flex-wrap min-w-0">
+        <div className="flex items-center gap-2 flex-wrap min-w-0">
           <button 
             onClick={onBack}
-            className="inline-flex items-center gap-1 text-gray-600 hover:text-[#9f224e] font-medium transition py-0.5 cursor-pointer flex-shrink-0"
+            className="inline-flex items-center gap-1.5 text-gray-600 hover:text-[#9f224e] font-medium transition py-0.5 cursor-pointer flex-shrink-0"
+            title="Quay lại"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            <span>Lịch thi đấu &amp; KQ</span>
           </button>
-          <ChevronRight className="w-3 h-3 text-gray-300 flex-shrink-0" />
-          <span className="text-gray-400 hidden sm:inline">Thể thao</span>
-          <ChevronRight className="w-3 h-3 text-gray-300 hidden sm:inline" />
-          <span className="text-gray-400 hidden sm:inline">Bóng đá</span>
-          <ChevronRight className="w-3 h-3 text-gray-300 hidden sm:inline" />
           <button 
             onClick={() => onLeagueClick && onLeagueClick(fixture.league.id)}
-            className="font-semibold text-gray-800 hover:text-[#9f224e] transition cursor-pointer truncate"
+            className="font-bold text-gray-900 hover:text-[#9f224e] transition cursor-pointer truncate"
           >
             {fixture.league.vietnameseName || fixture.league.name}
           </button>
@@ -315,13 +308,6 @@ export const MatchHeroSection: React.FC<MatchHeroSectionProps> = ({
               <span className="font-semibold text-gray-800">{refereeName.split(',')[0]}</span>
             </div>
           )}
-
-          {/* Kênh phát sóng */}
-          <div className="flex items-center gap-1.5">
-            <Tv className="w-3.5 h-3.5 text-blue-600 flex-shrink-0" />
-            <span className="text-gray-400">Trực tiếp:</span>
-            <span className="font-semibold text-gray-800">K+Sport1 • FPT Play</span>
-          </div>
 
         </div>
       </div>

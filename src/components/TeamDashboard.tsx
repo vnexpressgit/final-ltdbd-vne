@@ -2,7 +2,6 @@ import React, { useState, useMemo } from 'react';
 import { 
   Trophy, 
   Calendar, 
-  Tv, 
   Video, 
   TrendingUp, 
   ChevronRight, 
@@ -630,13 +629,10 @@ export const TeamDashboard: React.FC<TeamDashboardProps> = ({
             </div>
           </div>
 
-          <div className="flex items-center justify-between text-xs text-gray-600 bg-gray-50 p-2.5 rounded-lg border border-gray-100 mb-3">
-            <div className="flex items-center gap-1.5">
-              <Tv className="w-3.5 h-3.5 text-blue-600" />
-              <span>Trực tiếp: <strong>K+Sport1, FPT Play</strong></span>
-            </div>
-            <span className="text-[11px] font-mono text-gray-500 font-semibold">
-              Khởi tranh: <strong>Sắp diễn ra</strong>
+          <div className="flex items-center justify-between text-xs text-gray-600 bg-gray-50 p-2.5 rounded-lg border border-gray-100 mb-3 font-bai">
+            <span className="text-[11px] font-medium text-gray-500">Trận đấu kế tiếp</span>
+            <span className="text-[11px] font-mono text-gray-700 font-semibold">
+              Khởi tranh: Sắp diễn ra
             </span>
           </div>
 

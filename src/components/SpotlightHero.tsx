@@ -1,5 +1,4 @@
-import React from 'react';
-import { Flame, Tv, Video, Clock, Calendar, Sparkles } from 'lucide-react';
+import { Flame, Video, Clock, Calendar, Sparkles } from 'lucide-react';
 import { FixtureItem } from '../types/football';
 import { formatKickoffVN, formatRoundVN } from '../utils/footballUtils';
 
@@ -123,19 +122,8 @@ export const SpotlightHero: React.FC<SpotlightHeroProps> = ({
                 "{match.previewText || match.recap_summary}"
               </p>
 
-              {/* Footer inside hero: Channels & Action button */}
-              <div className="pt-2.5 border-t border-white/10 flex items-center justify-between text-xs">
-                <div className="flex items-center gap-1.5 flex-wrap">
-                  {match.broadcasters?.map((bc: any, i: number) => (
-                    <span 
-                      key={i} 
-                      className="bg-white/10 hover:bg-white/20 text-white text-[10px] font-semibold px-2 py-0.5 rounded-sm backdrop-blur-xs"
-                    >
-                      {bc.name}
-                    </span>
-                  ))}
-                </div>
-
+              {/* Footer inside hero: Action button */}
+              <div className="pt-2.5 border-t border-white/10 flex items-center justify-end text-xs">
                 <div className="flex items-center gap-2">
                   {match.highlight_video_url && isFinished && (
                     <button

@@ -1,112 +1,101 @@
-import React, { useState } from 'react';
-import { Newspaper, MessageSquare, Clock, User, ChevronRight, X, ExternalLink } from 'lucide-react';
-import { ArticleItem } from '../../types/football';
+import React, { useState, useMemo } from 'react';
+import { Newspaper, X } from 'lucide-react';
+import { ArticleItem, FixtureItem } from '../../types/football';
+import { getTeamNews } from '../../data/mockLeagueNews';
 
 interface TabMatchNewsProps {
-  news: ArticleItem[];
+  news?: ArticleItem[];
   matchHeadline?: string;
+  fixture?: FixtureItem;
 }
 
-export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline }) => {
+const formatPublishTime = (timeStr?: string): string => {
+  if (!timeStr) return "Vừa xong";
+  return timeStr
+    .replace(/(\d+)\s*phút\s*trước/i, "$1' trước")
+    .replace(/(\d+)\s*giờ\s*trước/i, "$1h trước");
+};
+
+export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news = [], fixture }) => {
   const [readingArticle, setReadingArticle] = useState<ArticleItem | null>(null);
 
+  // Lấy tin tức của cả 2 đội bóng trong cặp đấu này, tối đa 20 tin
+  const articlesList: ArticleItem[] = useMemo(() => {
+    if (!fixture) return news.slice(0, 20);
+
+    const homeNews = getTeamNews(fixture.teams.home.name, fixture.league.id);
+    const awayNews = getTeamNews(fixture.teams.away.name, fixture.league.id);
+
+    // Xen kẽ tin bài giữa 2 đội để tạo dòng sự kiện phong phú và cân bằng
+    const combined: ArticleItem[] = [];
+    const maxLen = Math.max(homeNews.length, awayNews.length);
+    for (let i = 0; i < maxLen; i++) {
+      if (i < homeNews.length) combined.push(homeNews[i]);
+      if (i < awayNews.length) combined.push(awayNews[i]);
+      if (combined.length >= 20) break;
+    }
+
+    return combined.slice(0, 20);
+  }, [fixture, news]);
+
+  const leagueName = fixture?.league.vietnameseName || fixture?.league.name || 'Bóng đá';
+
   return (
-    <div className="space-y-6">
-      {/* Header */}
-      <div className="bg-white rounded-2xl border border-gray-200/90 shadow-xs p-4 sm:p-5">
-        <h2 className="text-base sm:text-lg font-bold text-gray-900 flex items-center gap-2">
-          <Newspaper className="w-5 h-5 text-[#9f224e]" />
-          Tin tức liên quan trước và sau trận đấu
-        </h2>
-        <p className="text-xs text-gray-500 mt-0.5">
-          Dòng sự kiện, bài bình luận chuyên sâu và phát biểu của người trong cuộc từ phóng viên VnExpress
-        </p>
-      </div>
-
-      {/* Featured Headline Article (Top 1) */}
-      {news.length > 0 && (
-        <div 
-          onClick={() => setReadingArticle(news[0])}
-          className="bg-white rounded-2xl border border-gray-200/90 shadow-xs overflow-hidden cursor-pointer group hover:border-gray-300 transition-all"
-        >
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-0">
-            {/* Image (16:9 or 16:10) */}
-            <div className="md:col-span-7 overflow-hidden aspect-16/10 bg-gray-900">
-              <img 
-                src={news[0].image} 
-                alt={news[0].title}
-                className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-300"
-              />
-            </div>
-
-            {/* Content */}
-            <div className="md:col-span-5 p-5 sm:p-6 flex flex-col justify-between">
-              <div>
-                <span className="text-[11px] font-bold text-[#9f224e] uppercase tracking-wider block mb-2">
-                  Tiêu điểm sau trận
-                </span>
-                <h3 className="text-lg sm:text-xl font-bold text-gray-900 group-hover:text-[#9f224e] transition leading-snug">
-                  {news[0].title}
-                </h3>
-                <p className="text-xs sm:text-sm text-gray-600 mt-2.5 leading-relaxed line-clamp-3">
-                  {news[0].summary}
-                </p>
-              </div>
-
-              <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-xs text-gray-500">
-                <div className="flex items-center gap-2">
-                  <span>{news[0].publishedAt}</span>
-                </div>
-                {news[0].commentCount && (
-                  <span className="flex items-center gap-1 text-gray-400">
-                    <MessageSquare className="w-3.5 h-3.5" />
-                    <span>{news[0].commentCount}</span>
-                  </span>
-                )}
-              </div>
-            </div>
+    <div className="space-y-4 font-bai">
+      {/* Danh sách tin tức của cả 2 đội: 1 hàng duy nhất theo format chuẩn VnExpress */}
+      <div className="bg-white rounded-2xl border border-gray-200/90 shadow-xs p-3.5 sm:p-5">
+        <div className="flex items-center justify-between pb-3 mb-3 border-b border-gray-100">
+          <div className="flex items-center gap-2">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#9f224e]"></span>
+            <h2 className="text-sm sm:text-base font-bold text-[#222222] uppercase tracking-tight">
+              {fixture ? `Tin tức ${fixture.teams.home.name} & ${fixture.teams.away.name}` : 'Tin tức trận đấu'}
+            </h2>
           </div>
+          <span className="text-xs text-[#757575] font-mono">
+            {articlesList.length} bài viết
+          </span>
         </div>
-      )}
 
-      {/* Other 3 News Cards (Grid 3 columns) */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        {news.slice(1).map((item) => (
-          <div
-            key={item.id}
-            onClick={() => setReadingArticle(item)}
-            className="bg-white rounded-2xl border border-gray-200/90 shadow-xs overflow-hidden flex flex-col justify-between hover:border-gray-300 hover:shadow-md transition-all cursor-pointer group"
-          >
-            <div>
-              <div className="aspect-16/10 overflow-hidden bg-gray-100">
-                <img 
-                  src={item.image} 
-                  alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-200"
-                />
-              </div>
+        <div className="divide-y divide-[#f0f0f0]">
+          {articlesList.map((item) => {
+            const timeAgo = formatPublishTime(item.publishedAt);
 
-              <div className="p-4">
-                <h3 className="text-sm font-bold text-gray-900 group-hover:text-[#9f224e] transition line-clamp-2 leading-snug">
-                  {item.title}
-                </h3>
-                <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                  {item.summary}
-                </p>
-              </div>
-            </div>
+            return (
+              <article
+                key={item.id}
+                onClick={() => setReadingArticle(item)}
+                className="py-3.5 sm:py-4 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 sm:gap-4 md:gap-5 items-start"
+              >
+                {/* Thumbnail 16:10 */}
+                <div className="w-32 sm:w-48 md:w-56 aspect-[16/10] rounded overflow-hidden bg-gray-100 flex-shrink-0 relative">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-300"
+                    loading="lazy"
+                  />
+                </div>
 
-            <div className="px-4 pb-4 pt-2 flex items-center justify-between text-xs text-gray-400 border-t border-gray-50">
-              <span className="text-[11px] truncate">{item.publishedAt}</span>
-              {item.commentCount && (
-                <span className="flex items-center gap-1 text-gray-400 text-[11px]">
-                  <MessageSquare className="w-3 h-3" />
-                  <span>{item.commentCount}</span>
-                </span>
-              )}
-            </div>
-          </div>
-        ))}
+                {/* Nội dung bên phải */}
+                <div className="flex-1 min-w-0 space-y-1 sm:space-y-1.5">
+                  <h3 className="font-serif-vne text-sm sm:text-base md:text-[17px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
+                    {item.title}
+                  </h3>
+
+                  <p className="text-xs sm:text-[13px] md:text-sm text-[#4f4f4f] line-clamp-2 sm:line-clamp-3 leading-relaxed font-sans">
+                    {item.summary}
+                  </p>
+
+                  {/* Meta: Thời gian + Thư mục giải đấu */}
+                  <div className="flex items-center gap-3 text-xs text-[#757575] font-bai pt-0.5 sm:pt-1">
+                    <span>{timeAgo}</span>
+                    <span className="hover:text-[#9f224e] transition-colors">{leagueName}</span>
+                  </div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
       </div>
 
       {/* Article Detail Reader Modal */}
@@ -127,7 +116,7 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
               </div>
               <button
                 onClick={() => setReadingArticle(null)}
-                className="p-1.5 rounded-full hover:bg-gray-100 text-gray-500 hover:text-gray-900 transition"
+                className="p-1.5 rounded-full hover:bg-gray-100 text-gray-500 hover:text-gray-900 transition cursor-pointer"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -166,7 +155,7 @@ export const TabMatchNews: React.FC<TabMatchNewsProps> = ({ news, matchHeadline 
               <div className="pt-4 border-t border-gray-200 flex justify-end">
                 <button
                   onClick={() => setReadingArticle(null)}
-                  className="px-4 py-2 bg-gray-900 text-white rounded-lg text-xs font-bold hover:bg-gray-800 transition"
+                  className="px-4 py-2 bg-gray-900 text-white rounded-lg text-xs font-bold hover:bg-gray-800 transition cursor-pointer"
                 >
                   Đóng bài viết
                 </button>

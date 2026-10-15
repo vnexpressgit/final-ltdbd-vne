@@ -6,7 +6,6 @@ import {
   Clock, 
   ChevronRight, 
   Calendar, 
-  Tv, 
   MapPin, 
   User, 
   Share2, 
@@ -199,6 +198,14 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
       }
     ];
 
+    const MATCH_SAMPLE_IMAGES = [
+      "https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?auto=format&fit=crop&w=800&q=80"
+    ];
+
     for (let i = 0; i < needed; i++) {
       const t = templates[i % templates.length];
       baseArticles.push({
@@ -206,7 +213,7 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
         leagueId: fixture.league.id,
         title: t.title,
         summary: t.summary,
-        image: i % 2 === 0 ? home.logo : away.logo,
+        image: MATCH_SAMPLE_IMAGES[i % MATCH_SAMPLE_IMAGES.length],
         publishedAt: `${(i + 1) * 2} giờ trước`,
         category: t.category,
         author: t.author,
@@ -378,8 +385,49 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
             </div>
 
             <div className="text-right">
-              <span className="font-bold text-sm text-gray-900 block">{recapArticle.author || 'Quang Dũng - Vy Anh'}</span>
-              <span className="text-xs text-gray-500">VnExpress Thể Thao</span>
+              <span className="font-bold text-sm text-gray-900 block">{recapArticle.author || 'Quang Dũng'}</span>
+            </div>
+          </div>
+
+          {/* Tin tức khác của chính trận đấu này với format hiển thị chuẩn VnExpress */}
+          <div className="mt-6 pt-5 border-t border-gray-100 space-y-3 font-bai">
+            <h4 className="text-sm sm:text-base font-bold text-[#222222] flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#9f224e]"></span>
+              <span>Tin tức khác về trận đấu</span>
+            </h4>
+
+            <div className="divide-y divide-[#f0f0f0]">
+              {upcomingTwoTeamsNews.map((art) => (
+                <div
+                  key={art.id}
+                  onClick={() => onOpenArticle && onOpenArticle(art.title)}
+                  className="py-3.5 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 sm:gap-4 items-start"
+                >
+                  <div className="w-28 sm:w-36 md:w-44 aspect-[16/10] rounded overflow-hidden bg-gray-100 flex-shrink-0 relative">
+                    <img
+                      src={art.image}
+                      alt={art.title}
+                      className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  <div className="flex-1 min-w-0 space-y-1 sm:space-y-1.5">
+                    <h5 className="font-serif-vne text-xs sm:text-[14px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
+                      {art.title}
+                    </h5>
+
+                    <p className="text-xs text-[#4f4f4f] line-clamp-2 leading-relaxed font-sans">
+                      {art.summary}
+                    </p>
+
+                    <div className="flex items-center gap-3 text-xs text-[#757575] font-bai pt-0.5">
+                      <span>{art.publishedAt ? art.publishedAt.replace(/(\d+)\s*phút\s*trước/i, "$1' trước").replace(/(\d+)\s*giờ\s*trước/i, "$1h trước") : "Vừa xong"}</span>
+                      <span className="hover:text-[#9f224e] transition-colors">{fixture.league.vietnameseName || fixture.league.name}</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
 
@@ -574,14 +622,6 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
                 </span>
               </>
             )}
-          </div>
-        </div>
-
-        <div className="flex items-center gap-2 self-stretch sm:self-center bg-gray-50 p-2.5 rounded-xl border border-gray-200/80">
-          <Tv className="w-4 h-4 text-blue-600 flex-shrink-0" />
-          <div className="text-xs">
-            <span className="text-gray-500 block text-[10px]">Phát sóng trực tiếp</span>
-            <span className="font-bold text-gray-900">K+Sport1 • FPT Play</span>
           </div>
         </div>
       </div>
@@ -814,64 +854,6 @@ export const TabOverview: React.FC<TabOverviewProps> = ({
               )}
             </tbody>
           </table>
-        </div>
-      </div>
-
-      {/* 3. PHÍA CUỐI LÀ TIN TỨC CỦA 2 ĐỘI, SHOW 5 TIN TỨC MỚI NHẤT */}
-      <div className="bg-white rounded-2xl border border-gray-200/90 shadow-xs p-4 sm:p-6">
-        <div className="flex items-center justify-between pb-3 mb-4 border-b border-gray-100">
-          <div>
-            <h3 className="text-base sm:text-lg font-bold text-gray-900 flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#9f224e]"></span>
-              Tin tức mới nhất về {home.name} và {away.name}
-            </h3>
-            <p className="text-xs text-gray-500">
-              Nhận định, tình hình chấn thương và các diễn biến nóng nhất từ phóng viên VnExpress
-            </p>
-          </div>
-          <span className="text-xs font-bold text-gray-400">
-            5 bài viết mới nhất
-          </span>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {upcomingTwoTeamsNews.map((article, idx) => (
-            <div
-              key={article.id}
-              onClick={() => onOpenArticle && onOpenArticle(article.title)}
-              className={`rounded-xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-xs transition p-3 cursor-pointer group flex flex-col justify-between ${
-                idx === 0 ? 'sm:col-span-2 lg:col-span-1' : ''
-              }`}
-            >
-              <div>
-                <div className="aspect-16/10 rounded-lg overflow-hidden bg-gray-100 mb-2.5">
-                  <img 
-                    src={article.image || home.logo} 
-                    alt={article.title}
-                    className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-200"
-                  />
-                </div>
-                
-                <div className="flex items-center gap-2 text-[10px] text-gray-400 mb-1">
-                  <span>{article.publishedAt}</span>
-                </div>
-
-                <h4 className="text-xs sm:text-sm font-bold text-gray-900 group-hover:text-[#9f224e] transition line-clamp-2 leading-snug">
-                  {article.title}
-                </h4>
-
-                <p className="text-xs text-gray-500 mt-1 line-clamp-2 leading-relaxed">
-                  {article.summary}
-                </p>
-              </div>
-
-              <div className="mt-3 pt-2 border-t border-gray-100 flex items-center justify-end text-[11px] text-gray-400">
-                <span className="font-semibold text-[#9f224e] flex items-center gap-0.5 group-hover:translate-x-0.5 transition">
-                  Đọc tiếp →
-                </span>
-              </div>
-            </div>
-          ))}
         </div>
       </div>
 
