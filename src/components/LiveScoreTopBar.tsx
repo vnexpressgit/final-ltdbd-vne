@@ -32,7 +32,22 @@ export const LiveScoreTopBar: React.FC<LiveScoreTopBarProps> = ({
   const curIdx = dateList.indexOf(selectedDate);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const activeDateRef = useRef<HTMLButtonElement>(null);
+  const dateInputRef = useRef<HTMLInputElement>(null);
   const isUserActionRef = useRef<boolean>(false);
+
+  const handleOpenPicker = () => {
+    if (dateInputRef.current) {
+      if ('showPicker' in HTMLInputElement.prototype && typeof dateInputRef.current.showPicker === 'function') {
+        try {
+          dateInputRef.current.showPicker();
+          return;
+        } catch {
+          // ignore error and fallback
+        }
+      }
+      dateInputRef.current.focus();
+    }
+  };
 
   // Auto-scroll active date into view, ensuring 'Hôm nay' is always positioned flush next to Next button in 'Kết quả'
   useEffect(() => {
@@ -209,13 +224,17 @@ export const LiveScoreTopBar: React.FC<LiveScoreTopBarProps> = ({
         </div>
 
         {/* Right: Calendar picker button */}
-        <div className="flex-shrink-0 pl-1 border-l border-[#e5e5e5]">
-          <label 
-            className="p-1.5 sm:p-2 rounded-md bg-[#f7f7f8] hover:bg-[#eceef0] text-[#38404D] border border-[#e5e5e5] cursor-pointer transition flex items-center justify-center" 
+        <div className="flex-shrink-0 pl-1 border-l border-[#e5e5e5] relative">
+          <button 
+            type="button"
+            onClick={handleOpenPicker}
+            className="relative p-1.5 sm:p-2 rounded-md bg-[#f7f7f8] hover:bg-[#eceef0] text-[#38404D] border border-[#e5e5e5] cursor-pointer transition flex items-center justify-center group" 
             title="Chọn ngày cụ thể"
+            aria-label="Chọn ngày cụ thể"
           >
-            <CalendarIcon className="w-4 h-4 text-[#9f224e]" />
+            <CalendarIcon className="w-4 h-4 text-[#9f224e] group-hover:scale-110 transition-transform pointer-events-none" />
             <input
+              ref={dateInputRef}
               type="date"
               value={selectedDate}
               min={minDate}
@@ -228,9 +247,10 @@ export const LiveScoreTopBar: React.FC<LiveScoreTopBarProps> = ({
                   }
                 }
               }}
-              className="sr-only"
+              className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+              tabIndex={-1}
             />
-          </label>
+          </button>
         </div>
 
       </div>

@@ -552,7 +552,27 @@ function generateLeagueNews(leagueId: number, leagueName: string): ArticleItem[]
     `Thống kê thú vị: Tỷ lệ ghi bàn trong hiệp hai cao kỷ lục`,
     `Khám phá chế độ dinh dưỡng và tập luyện chuẩn quốc tế của các cầu thủ`,
     `Các huyền thoại nhận định về cuộc đua vô địch năm nay`,
-    `Top 5 tài năng trẻ đáng xem nhất giải đấu trong tương lai gần`
+    `Top 5 tài năng trẻ đáng xem nhất giải đấu trong tương lai gần`,
+    `Hàng phòng ngự thép: Yếu tố then chốt tạo nên chuỗi chiến thắng kỷ lục`,
+    `Cuộc so tài giữa các bậc thầy chiến thuật trên băng ghế huấn luyện`,
+    `Dàn ngoại binh chất lượng cao nâng tầm chất lượng chuyên môn giải đấu`,
+    `Khúc cua định mệnh: Những chặng đua then chốt trước kỳ nghỉ đông`,
+    `Tâm điểm vòng đấu: Những thống kê biết nói trước giờ bóng lăn`,
+    `Bản lĩnh nhà vô địch: Vượt qua nghịch cảnh để giành trọn vẹn 3 điểm`,
+    `Vũ khí sút phạt cố định: Giải pháp phá vỡ bế tắc hiệu quả nhất`,
+    `Những nỗ lực không ngừng nghỉ của các câu lạc bộ nhóm cầm đèn đỏ`,
+    `Cầu thủ xuất sắc nhất tháng: Sự thừa nhận xứng đáng từ giới chuyên môn`,
+    `Sự trở lại ngọt ngào của các trụ cột sau thời gian dài điều trị chấn thương`,
+    `Sức mạnh tập thể: Triết lý bóng đá hiện đại đánh bại chủ nghĩa ngôi sao`,
+    `Những khoảnh khắc fair-play làm xúc động hàng triệu con tim người hâm mộ`,
+    `Hành trình lột xác kỳ diệu của đội bóng tân binh ở mùa giải năm nay`,
+    `Phân tích chuyên sâu: Vì sao các pha phản công biên ngày càng nguy hiểm?`,
+    `Đêm huyền diệu: Khi những điều không tưởng trở thành hiện thực trên sân cỏ`,
+    `Chuyển nhượng tự do: Các câu lạc bộ săn đón món hời trước giờ đóng cửa`,
+    `Áp lực ngàn cân lên chiếc ghế nóng của các huấn luyện viên`,
+    `Toàn cảnh phòng ngự phản công: Nghệ thuật rình rập và trừng phạt sai lầm`,
+    `Sân vận động chật kín khán giả: Niềm tự hào và điểm tựa vững chắc`,
+    `Cú đúp ngoạn mục định đoạt trận derby kịch tính bậc nhất mùa giải`
   ];
 
   headlines.forEach((title, idx) => {
@@ -574,13 +594,14 @@ function generateLeagueNews(leagueId: number, leagueName: string): ArticleItem[]
 }
 
 export function getNewsByLeague(leagueId: number, leagueName: string = "Giải đấu"): ArticleItem[] {
+  const generated = generateLeagueNews(leagueId, leagueName);
   if (leagueId === 39) {
-    return PREMIER_LEAGUE_NEWS;
+    return [...PREMIER_LEAGUE_NEWS, ...generated.slice(PREMIER_LEAGUE_NEWS.length)];
   }
   if (leagueId === 382 || leagueId === 340) {
-    return VLEAGUE_NEWS;
+    return [...VLEAGUE_NEWS, ...generated.slice(VLEAGUE_NEWS.length)];
   }
-  return generateLeagueNews(leagueId, leagueName);
+  return generated;
 }
 
 const MAN_UTD_DEDICATED_NEWS: ArticleItem[] = [

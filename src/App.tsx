@@ -94,6 +94,8 @@ export default function App() {
   const yesterdayDateStr = "2026-10-12";
   const tomorrowDateStr = "2026-10-14";
 
+  const [selectedDate, setSelectedDate] = useState<string>(todayDateStr);
+
   // Full calendar dates pool dynamically derived from all fixtures across the season
   const allDatePool = useMemo(() => {
     const datesSet = new Set<string>();
@@ -107,8 +109,11 @@ export default function App() {
     allFixtures.forEach(f => {
       datesSet.add(getFootballDayString(f.fixture.date));
     });
+    if (selectedDate) {
+      datesSet.add(selectedDate);
+    }
     return Array.from(datesSet).sort();
-  }, [allFixtures]);
+  }, [allFixtures, selectedDate]);
 
   // Requirements:
   // - Tại trang Lịch thi đấu: chỉ show data của hôm nay và các ngày tương lai
@@ -126,8 +131,6 @@ export default function App() {
     if (currentTab === 'results') return resultsDateList;
     return scheduleDateList;
   }, [currentTab, resultsDateList, scheduleDateList]);
-
-  const [selectedDate, setSelectedDate] = useState<string>(todayDateStr);
 
   // Left sidebar filters & League routing
   const [searchQuery, setSearchQuery] = useState<string>('');

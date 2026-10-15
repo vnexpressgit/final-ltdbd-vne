@@ -55,11 +55,39 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
     }
   };
 
-  // Get news for this league
-  const newsList = getNewsByLeague(league.id, league.vietnameseName);
-  const leadArticle = newsList[0];
-  const opinionArticles = newsList.slice(1, 4);
-  const newsStream = newsList.slice(4, 10);
+  // News Pagination: 20 articles per page
+  const [newsPage, setNewsPage] = useState(1);
+  const newsPerPage = 20;
+
+  useEffect(() => {
+    setNewsPage(1);
+  }, [league.id]);
+
+  // All news for this league
+  const allNewsList = useMemo(() => {
+    return getNewsByLeague(league.id, league.vietnameseName);
+  }, [league.id, league.vietnameseName]);
+
+  const totalNewsPages = Math.ceil(allNewsList.length / newsPerPage);
+
+  const currentNewsItems = useMemo(() => {
+    const startIndex = (newsPage - 1) * newsPerPage;
+    return allNewsList.slice(startIndex, startIndex + newsPerPage);
+  }, [allNewsList, newsPage, newsPerPage]);
+
+  const newsContainerRef = useRef<HTMLDivElement>(null);
+
+  const handleNewsPageChange = (newPage: number) => {
+    setNewsPage(newPage);
+    if (newsContainerRef.current) {
+      newsContainerRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
+
+  const isFirstNewsPage = newsPage === 1;
+  const leadArticle = isFirstNewsPage ? currentNewsItems[0] : null;
+  const opinionArticles = isFirstNewsPage ? currentNewsItems.slice(1, 4) : [];
+  const streamArticles = isFirstNewsPage ? currentNewsItems.slice(4) : currentNewsItems;
 
   // Top scorers data
   const topScorers = getLeagueTopScorers(league.id);
@@ -366,22 +394,12 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
             {/* MAIN CONTENT COLUMN (70% ~ 8 cols on LG) */}
             <div className="lg:col-span-8 space-y-3.5 sm:space-y-4">
 
-            {/* BLOCK 2: PHÂN TÍCH CHUYÊN SÂU (Deep-dive Analysis) */}
-            <section className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs p-3.5 sm:p-4">
-              <div className="flex items-center justify-between pb-2.5 mb-3.5 border-b border-[#f0f0f0]">
-                <div className="flex items-center gap-2">
-                  <div className="w-1 h-4 bg-[#9f224e] rounded-full"></div>
-                  <h2 className="font-bai text-sm sm:text-base font-bold text-[#222222] uppercase tracking-tight">
-                    Phân tích chuyên sâu &amp; Nhận định
-                  </h2>
-                </div>
-                <span className="font-bai text-xs text-[#636B79] font-medium hidden sm:inline">Góc nhìn chuyên gia</span>
-              </div>
-
-              {/* Lead Article + 2-3 Opinion Side Articles */}
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-5">
-                {/* Lead Article (Left 7 cols) */}
-                {leadArticle && (
+            {/* UNIFIED NEWS BLOCK: Merged Block 2 & Block 3, removed titles, added pagination (20 items/page) */}
+            <section ref={newsContainerRef} className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs p-3.5 sm:p-5 space-y-4">
+              {/* Lead Article + 3 Opinion Articles (only shown on Page 1) */}
+              {isFirstNewsPage && leadArticle && (
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-4 sm:gap-5 pb-4 border-b border-[#f0f0f0]">
+                  {/* Lead Article (Left 7 cols) */}
                   <article className="md:col-span-7 group cursor-pointer space-y-2">
                     <div className="aspect-[16/10] overflow-hidden rounded-md bg-gray-100 relative">
                       <img 
@@ -427,57 +445,44 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                       </div>
                     </div>
                   </article>
-                )}
 
-                {/* 2-3 Opinion Articles (Right 5 cols) */}
-                <div className="md:col-span-5 flex flex-col justify-between divide-y divide-[#f0f0f0]">
-                  {opinionArticles.map((art, idx) => (
-                    <article 
-                      key={art.id}
-                      className={`group cursor-pointer space-y-1 ${idx > 0 ? 'pt-3' : 'pb-3'}`}
-                    >
-                      <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
-                        <span className="text-[#9f224e] font-bold uppercase">{art.category}</span>
-                        <span>•</span>
-                        <span>{art.publishedAt}</span>
-                      </div>
-                      <h4 className="font-serif-vne text-xs sm:text-[13px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
-                        {art.title}
-                      </h4>
-                      <p className="text-xs text-[#636B79] line-clamp-2 leading-relaxed">
-                        {art.summary}
-                      </p>
-                      <div className="flex items-center justify-between text-[11px] text-[#757575] pt-0.5 font-bai">
-                        <span className="italic">{art.author || 'VnExpress'}</span>
-                        <span className="flex items-center gap-1">
-                          <MessageSquare className="w-2.5 h-2.5" />
-                          <span>{art.commentCount || 18}</span>
-                        </span>
-                      </div>
-                    </article>
-                  ))}
+                  {/* 2-3 Opinion Articles (Right 5 cols) */}
+                  <div className="md:col-span-5 flex flex-col justify-between divide-y divide-[#f0f0f0]">
+                    {opinionArticles.map((art, idx) => (
+                      <article 
+                        key={art.id}
+                        className={`group cursor-pointer space-y-1 ${idx > 0 ? 'pt-3' : 'pb-3'}`}
+                      >
+                        <div className="flex items-center gap-1.5 text-[10px] text-[#757575] font-bai">
+                          <span className="text-[#9f224e] font-bold uppercase">{art.category}</span>
+                          <span>•</span>
+                          <span>{art.publishedAt}</span>
+                        </div>
+                        <h4 className="font-serif-vne text-xs sm:text-[13px] font-bold text-[#222222] group-hover:text-[#9f224e] transition-colors leading-snug line-clamp-2">
+                          {art.title}
+                        </h4>
+                        <p className="text-xs text-[#636B79] line-clamp-2 leading-relaxed">
+                          {art.summary}
+                        </p>
+                        <div className="flex items-center justify-between text-[11px] text-[#757575] pt-0.5 font-bai">
+                          <span className="italic">{art.author || 'VnExpress'}</span>
+                          <span className="flex items-center gap-1">
+                            <MessageSquare className="w-2.5 h-2.5" />
+                            <span>{art.commentCount || 18}</span>
+                          </span>
+                        </div>
+                      </article>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </section>
-
-            {/* BLOCK 3: DÒNG SỰ KIỆN (News Stream) */}
-            <section className="bg-white rounded-lg border border-[#e5e5e5] shadow-xs p-3.5 sm:p-4">
-              <div className="flex items-center justify-between pb-2.5 mb-3.5 border-b border-[#f0f0f0]">
-                <div className="flex items-center gap-2">
-                  <div className="w-1 h-4 bg-[#222222] rounded-full"></div>
-                  <h2 className="font-bai text-sm sm:text-base font-bold text-[#222222] uppercase tracking-tight">
-                    Dòng sự kiện {league.vietnameseName}
-                  </h2>
-                </div>
-                <span className="font-bai text-xs text-[#636B79] font-medium">Cập nhật 24/7</span>
-              </div>
+              )}
 
               {/* News Stream Articles */}
               <div className="divide-y divide-[#f0f0f0]">
-                {newsStream.map((article) => (
+                {streamArticles.map((article) => (
                   <article 
                     key={article.id}
-                    className="py-3 first:pt-0 last:pb-0 group cursor-pointer flex gap-3 sm:gap-3.5 items-start"
+                    className="py-3.5 first:pt-0 last:pb-0 group cursor-pointer flex gap-3 sm:gap-4 items-start"
                   >
                     {/* Left Thumbnail */}
                     <div className="w-28 sm:w-36 aspect-[4/3] rounded-md overflow-hidden bg-gray-100 flex-shrink-0 relative">
@@ -516,6 +521,49 @@ export const LeagueDetailView: React.FC<LeagueDetailViewProps> = ({
                   </article>
                 ))}
               </div>
+
+              {/* Pagination Bar (20 tin bài một trang) */}
+              {totalNewsPages > 1 && (
+                <div className="pt-4 border-t border-[#f0f0f0] flex flex-col sm:flex-row items-center justify-between gap-3 font-bai text-xs">
+                  <span className="text-[#757575]">
+                    Trang <span className="font-bold text-[#222222]">{newsPage}</span> / {totalNewsPages} ({allNewsList.length} tin bài)
+                  </span>
+
+                  <div className="flex items-center gap-1.5 flex-wrap justify-center">
+                    <button
+                      onClick={() => handleNewsPageChange(newsPage - 1)}
+                      disabled={newsPage === 1}
+                      className="px-2.5 py-1.5 rounded border border-[#e5e5e5] bg-[#fafafa] hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed text-[#333333] font-semibold transition cursor-pointer flex items-center gap-1"
+                    >
+                      <ChevronLeft className="w-3.5 h-3.5" />
+                      <span>Trước</span>
+                    </button>
+
+                    {Array.from({ length: totalNewsPages }, (_, i) => i + 1).map((p) => (
+                      <button
+                        key={p}
+                        onClick={() => handleNewsPageChange(p)}
+                        className={`w-7 h-7 rounded text-xs font-bold transition cursor-pointer flex items-center justify-center ${
+                          newsPage === p
+                            ? 'bg-[#9f224e] text-white shadow-xs'
+                            : 'bg-white border border-[#e5e5e5] text-[#333333] hover:bg-gray-50'
+                        }`}
+                      >
+                        {p}
+                      </button>
+                    ))}
+
+                    <button
+                      onClick={() => handleNewsPageChange(newsPage + 1)}
+                      disabled={newsPage === totalNewsPages}
+                      className="px-2.5 py-1.5 rounded border border-[#e5e5e5] bg-[#fafafa] hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed text-[#333333] font-semibold transition cursor-pointer flex items-center gap-1"
+                    >
+                      <span>Sau</span>
+                      <ChevronRight className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                </div>
+              )}
             </section>
           </div>
 
