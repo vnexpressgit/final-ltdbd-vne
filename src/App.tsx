@@ -282,37 +282,57 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Navigate to league sub-URL and sync browser history
+  // Navigate to league sub-URL or filter league and sync browser history
   const handleLeagueChange = (id: number | null, openDetail: boolean = false, subTab: LeagueSubTab = 'overview') => {
     setSelectedMatchFixture(null);
     setSelectedTeamProfile(null);
     setSelectedLeagueId(id);
-    setIsLeagueDetailView(openDetail || Boolean(id));
+    setIsLeagueDetailView(openDetail);
     setLeagueSubTab(subTab);
     setSelectedTeam(null);
     setSelectedCountry(null);
     setExpandedMatches(false);
 
     if (id) {
-      const slug = getLeagueSlug(id);
-      const targetUrl = getLeagueUrl(id, slug, subTab);
-      window.history.pushState({ leagueId: id, subTab }, '', targetUrl);
-      const leagueObj = getLeagueById(id);
-      if (leagueObj) {
-        const titleSuffix = 
-          subTab === 'lich-thi-dau' ? `Lịch thi đấu ${leagueObj.vietnameseName} mới nhất` :
-          subTab === 'ket-qua' ? `Kết quả bóng đá ${leagueObj.vietnameseName} - Tỷ số mới nhất` :
-          subTab === 'standings' ? `Bảng xếp hạng ${leagueObj.vietnameseName}` :
-          subTab === 'stats' ? `Thống kê & Vua phá lưới ${leagueObj.vietnameseName}` :
-          `${leagueObj.vietnameseName} - Lịch thi đấu, Kết quả, BXH & Tin tức`;
-        document.title = `${titleSuffix} | VnExpress Thể Thao`;
+      if (openDetail) {
+        const slug = getLeagueSlug(id);
+        const targetUrl = getLeagueUrl(id, slug, subTab);
+        window.history.pushState({ leagueId: id, subTab, openDetail: true }, '', targetUrl);
+        const leagueObj = getLeagueById(id);
+        if (leagueObj) {
+          const titleSuffix = 
+            subTab === 'lich-thi-dau' ? `Lịch thi đấu ${leagueObj.vietnameseName} mới nhất` :
+            subTab === 'ket-qua' ? `Kết quả bóng đá ${leagueObj.vietnameseName} - Tỷ số mới nhất` :
+            subTab === 'standings' ? `Bảng xếp hạng ${leagueObj.vietnameseName}` :
+            subTab === 'stats' ? `Thống kê & Vua phá lưới ${leagueObj.vietnameseName}` :
+            `${leagueObj.vietnameseName} - Lịch thi đấu, Kết quả, BXH & Tin tức`;
+          document.title = `${titleSuffix} | VnExpress Thể Thao`;
+        }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        // Just filtering the current view
+        const currentPath = window.location.pathname.toLowerCase();
+        if (currentPath.includes('/giai-dau/') || currentPath.includes('/tran-dau/') || currentPath.includes('/doi-bong/')) {
+          const tabPath = currentTab === 'results' ? '/ket-qua' : currentTab === 'live' ? '/truc-tiep' : '/';
+          window.history.pushState({}, '', tabPath);
+        }
+        const leagueObj = getLeagueById(id);
+        if (leagueObj) {
+          const currentTabName = currentTab === 'results' ? 'Kết quả' : currentTab === 'live' ? 'Trực tiếp' : 'Lịch thi đấu';
+          document.title = `${leagueObj.vietnameseName} - ${currentTabName} | VnExpress Thể Thao`;
+        }
       }
     } else {
       setIsLeagueDetailView(false);
-      window.history.pushState({}, '', '/');
-      document.title = "Lịch Thi Đấu & Kết Quả Bóng Đá VnExpress - Thể Thao 24/7";
+      const tabPath = currentTab === 'results' ? '/ket-qua' : currentTab === 'live' ? '/truc-tiep' : '/';
+      window.history.pushState({}, '', tabPath);
+      const defaultTitle = currentTab === 'results' 
+        ? "Kết quả bóng đá hôm nay - Tỷ số, KQBD mới nhất | VnExpress"
+        : currentTab === 'live'
+        ? "Trực tiếp bóng đá hôm nay - Tỷ số trực tuyến 24/7 | VnExpress"
+        : "Lịch thi đấu bóng đá hôm nay - Lịch bóng đá, KQBD mới nhất | VnExpress";
+      document.title = defaultTitle;
     }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleLeagueSubTabChange = (newSubTab: LeagueSubTab) => {
@@ -717,7 +737,7 @@ export default function App() {
             onOpenHighlightModal={(f) => setActiveHighlightMatch(f)}
             onLeagueClick={(leagueId) => {
               setSelectedMatchFixture(null);
-              handleLeagueChange(leagueId);
+              handleLeagueChange(leagueId, true);
             }}
             allFixtures={allFixtures}
             onNavigateToMatch={navigateToMatch}
@@ -813,51 +833,43 @@ export default function App() {
               {/* Column 2: Center Main Match Content (Narrowed/flexible width to accommodate right sidebar) */}
               <div className="flex-1 min-w-0 space-y-4">
                 
-                {/* Breadcrumbs & League Header Banner when viewing a specific league sub-URL */}
+                {/* Active League Filter Bar */}
                 {selectedLeague && (
-                  <div className="bg-white rounded-xl border border-gray-200 p-3 sm:p-4 shadow-xs">
-                    {/* Breadcrumbs */}
-                    <div className="flex items-center gap-1.5 text-xs text-gray-500 mb-2.5">
-                      <button 
-                        onClick={() => handleLeagueChange(null)}
-                        className="hover:text-[#9f224e] hover:underline"
-                      >
-                        Trang chủ
-                      </button>
-                      <span>/</span>
-                      <span>Thể thao</span>
-                      <span>/</span>
-                      <span>Bóng đá</span>
-                      <span>/</span>
-                      <span className="text-gray-900 font-bold">{selectedLeague.vietnameseName}</span>
+                  <div className="bg-white rounded-lg border border-[#e5e5e5] px-3.5 py-2.5 flex items-center justify-between shadow-2xs">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <img 
+                        src={selectedLeague.logo} 
+                        alt={selectedLeague.name} 
+                        className="w-7 h-7 object-contain flex-shrink-0"
+                      />
+                      <div className="truncate">
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs sm:text-sm font-bold text-[#222222] truncate">{selectedLeague.vietnameseName}</span>
+                          <span className="text-[11px] text-[#757575] font-normal">
+                            ({formatCountryVN(selectedLeague.country)})
+                          </span>
+                        </div>
+                        <span className="text-[11px] text-[#9f224e] font-medium block truncate">
+                          Đang lọc dữ liệu trận đấu giải {selectedLeague.vietnameseName}
+                        </span>
+                      </div>
                     </div>
 
-                    {/* League Title Banner */}
-                    <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-2 border-t border-gray-100">
-                      <div className="flex items-center gap-3">
-                        <img 
-                          src={selectedLeague.logo} 
-                          alt={selectedLeague.name} 
-                          className="w-10 h-10 object-contain p-1 bg-gray-50 rounded-lg border border-gray-200 flex-shrink-0"
-                        />
-                        <div>
-                          <h1 className="text-base sm:text-lg font-bold text-gray-900 flex items-center gap-2">
-                            <span>{selectedLeague.vietnameseName}</span>
-                            <span className="text-xs text-[#9f224e] bg-rose-50 px-2 py-0.5 rounded font-mono font-bold border border-rose-200">
-                              Mùa {selectedLeague.season}
-                            </span>
-                          </h1>
-                          <p className="text-xs text-gray-500">
-                            {formatCountryVN(selectedLeague.country)}
-                          </p>
-                        </div>
-                      </div>
-
+                    <div className="flex items-center gap-2 flex-shrink-0">
+                      <button
+                        onClick={() => handleLeagueChange(null)}
+                        className="px-2.5 py-1 text-xs text-gray-600 hover:text-red-700 font-medium hover:bg-gray-100 rounded transition cursor-pointer"
+                        title="Bỏ lọc giải này"
+                      >
+                        Bỏ lọc
+                      </button>
                       <button
                         onClick={() => handleLeagueChange(selectedLeague.id, true)}
-                        className="self-start sm:self-center px-3 py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold rounded-lg border border-gray-200 flex items-center transition cursor-pointer"
+                        className="px-2.5 py-1 bg-[#9f224e] hover:bg-[#831b40] text-white text-xs font-semibold rounded transition cursor-pointer flex items-center gap-1 shadow-2xs"
+                        title="Xem trang chi tiết giải đấu"
                       >
-                        <span>Xem chi tiết</span>
+                        <span>Chi tiết giải</span>
+                        <ChevronRight className="w-3.5 h-3.5" />
                       </button>
                     </div>
                   </div>
@@ -950,7 +962,7 @@ export default function App() {
 
                             {selectedLeagueId !== group.leagueId && (
                               <button
-                                onClick={() => handleLeagueChange(group.leagueId)}
+                                onClick={() => handleLeagueChange(group.leagueId, true)}
                                 className="text-xs text-[#9f224e] hover:underline flex items-center gap-0.5 font-semibold cursor-pointer"
                               >
                                 <span>Xem chi tiết</span>
